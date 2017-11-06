@@ -1,0 +1,2174 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: File Manager\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: N-Media\n"
+"MIME-Version: 1.0\n"
+"X-Generator: Poedit 1.8.1\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ..\\\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: js/plupload-2.1.2/js/jquery.plupload.queue/jquery.plupload.queue.js:99
+#: js/plupload-2.1.2/js/jquery.ui.plupload/jquery.ui.plupload.js:216
+#: templates/render.input.php:278
+msgid "Select files"
+msgstr ""
+
+#: js/plupload-2.1.2/js/jquery.plupload.queue/jquery.plupload.queue.js:100
+#: js/plupload-2.1.2/js/jquery.ui.plupload/jquery.ui.plupload.js:217
+msgid "Add files to the upload queue and click the start button."
+msgstr ""
+
+#: js/plupload-2.1.2/js/jquery.plupload.queue/jquery.plupload.queue.js:106
+#: js/plupload-2.1.2/js/jquery.ui.plupload/jquery.ui.plupload.js:227
+msgid "Filename"
+msgstr ""
+
+#: js/plupload-2.1.2/js/jquery.plupload.queue/jquery.plupload.queue.js:108
+#: js/plupload-2.1.2/js/jquery.ui.plupload/jquery.ui.plupload.js:228
+msgid "Status"
+msgstr ""
+
+#: js/plupload-2.1.2/js/jquery.plupload.queue/jquery.plupload.queue.js:109
+#: js/plupload-2.1.2/js/jquery.ui.plupload/jquery.ui.plupload.js:229
+#: templates/v10/_template_main.php:222
+msgid "Size"
+msgstr ""
+
+#: js/plupload-2.1.2/js/jquery.plupload.queue/jquery.plupload.queue.js:118
+#: js/plupload-2.1.2/js/jquery.plupload.queue/jquery.plupload.queue.js:248
+#: js/plupload-2.1.2/js/jquery.ui.plupload/jquery.ui.plupload.js:244
+#: js/plupload-2.1.2/js/jquery.ui.plupload/jquery.ui.plupload.js:886
+msgid "Add Files"
+msgstr ""
+
+#: js/plupload-2.1.2/js/jquery.plupload.queue/jquery.plupload.queue.js:119
+#: js/plupload-2.1.2/js/jquery.ui.plupload/jquery.ui.plupload.js:245
+msgid "Start Upload"
+msgstr ""
+
+#: js/plupload-2.1.2/js/jquery.plupload.queue/jquery.plupload.queue.js:201
+#: js/plupload-2.1.2/js/jquery.ui.plupload/jquery.ui.plupload.js:857
+#: js/plupload-2.1.2/js/jquery.ui.plupload/jquery.ui.plupload.js:971
+#, javascript-format
+msgid "Uploaded %d/%d files"
+msgstr ""
+
+#: js/plupload-2.1.2/js/jquery.plupload.queue/jquery.plupload.queue.js:250
+#: js/plupload-2.1.2/js/jquery.ui.plupload/jquery.ui.plupload.js:888
+#, javascript-format
+msgid "%d files queued"
+msgstr ""
+
+#: js/plupload-2.1.2/js/jquery.plupload.queue/jquery.plupload.queue.js:262
+#: js/plupload-2.1.2/js/jquery.plupload.queue/jquery.plupload.queue.js:361
+#: js/plupload-2.1.2/js/jquery.ui.plupload/jquery.ui.plupload.js:235
+msgid "Drag files here."
+msgstr ""
+
+#: js/plupload-2.1.2/js/jquery.plupload.queue/jquery.plupload.queue.js:340
+msgid "Error: File too large:"
+msgstr ""
+
+#: js/plupload-2.1.2/js/jquery.plupload.queue/jquery.plupload.queue.js:344
+msgid "Error: Invalid file extension:"
+msgstr ""
+
+#: js/plupload-2.1.2/js/jquery.ui.plupload/jquery.ui.plupload.js:219
+msgid "List"
+msgstr ""
+
+#: js/plupload-2.1.2/js/jquery.ui.plupload/jquery.ui.plupload.js:220
+msgid "Thumbnails"
+msgstr ""
+
+#: js/plupload-2.1.2/js/jquery.ui.plupload/jquery.ui.plupload.js:246
+msgid "Stop Upload"
+msgstr ""
+
+#: js/plupload-2.1.2/js/jquery.ui.plupload/jquery.ui.plupload.js:437
+msgid "File count error."
+msgstr ""
+
+#: js/plupload-2.1.2/js/jquery.ui.plupload/jquery.ui.plupload.js:454
+#, javascript-format
+msgid "File: %s"
+msgstr ""
+
+#: js/plupload-2.1.2/js/jquery.ui.plupload/jquery.ui.plupload.js:458
+#, javascript-format
+msgid "File: %s, size: %d, max file size: %d"
+msgstr ""
+
+#: js/plupload-2.1.2/js/jquery.ui.plupload/jquery.ui.plupload.js:462
+#, javascript-format
+msgid "%s already present in the queue."
+msgstr ""
+
+#: js/plupload-2.1.2/js/jquery.ui.plupload/jquery.ui.plupload.js:466
+#, javascript-format
+msgid "Upload element accepts only %d file(s) at a time. Extra files were stripped."
+msgstr ""
+
+#: js/plupload-2.1.2/js/jquery.ui.plupload/jquery.ui.plupload.js:470
+msgid "Image format either wrong or not supported."
+msgstr ""
+
+#: js/plupload-2.1.2/js/jquery.ui.plupload/jquery.ui.plupload.js:474
+msgid "Runtime ran out of available memory."
+msgstr ""
+
+#: js/plupload-2.1.2/js/jquery.ui.plupload/jquery.ui.plupload.js:483
+msgid "Upload URL might be wrong or doesn't exist."
+msgstr ""
+
+#: js/plupload-2.1.2/js/jquery.ui.plupload/jquery.ui.plupload.js:780
+msgid "Close"
+msgstr ""
+
+#: classes/admin.class.php:29 classes/admin.class.php:30
+#: classes/plugin.class.php:363 classes/plugin.class.php:364
+#: templates/admin/user-files.php:22
+msgid "User Files"
+msgstr ""
+
+#: classes/admin.class.php:222 classes/plugin.class.php:141
+#: templates/admin/create-form.php:194 templates/admin/file-meta.php:199
+msgid "Are you sure?"
+msgstr ""
+
+#: classes/admin.class.php:259 classes/admin.class.php:260
+#: classes/admin.class.php:269 classes/admin.class.php:270
+#: classes/admin.class.php:406 classes/admin.class.php:418
+#: classes/plugin.class.php:694 classes/plugin.class.php:753
+#: classes/plugin.class.php:767 classes/plugin.class.php:989
+#: classes/plugin.class.php:1184 classes/plugin.class.php:2713
+#: templates/_template_uploader.php:22 templates/_template_uploader.php:65
+#: templates/admin/settings.php:32 templates/admin/settings.php:82
+#: templates/bp/_template_main.php:67 templates/bp/_template_uploader.php:21
+#: templates/bp/_template_uploader.php:67
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: classes/admin.class.php:300
+msgid "Following files are uploaded:"
+msgstr ""
+
+#: classes/admin.class.php:321
+msgid "Download file/image: "
+msgstr ""
+
+#: classes/admin.class.php:326
+msgid "Download edited image: "
+msgstr ""
+
+#: classes/admin.class.php:345 classes/plugin.class.php:540
+msgid "All options are updated"
+msgstr ""
+
+#: classes/admin.class.php:357
+msgid "Provide API key below:"
+msgstr ""
+
+#: classes/admin.class.php:358
+msgid "If you don't know your API key, please login into your: <a target=\"_blank\" href=\"http://wordpresspoets.com/member-area\">Member area</a>"
+msgstr ""
+
+#: classes/admin.class.php:361
+msgid "Entery API key"
+msgstr ""
+
+#: classes/class.bpgroups.php:41
+msgid "File Sharing Option"
+msgstr ""
+
+#: classes/class.bpgroups.php:45
+msgid "Files uploaded by users will be shared in current Group"
+msgstr ""
+
+#: classes/class.bpgroups.php:48
+msgid "Files uploaded by users will NOT be shared with anyone."
+msgstr ""
+
+#: classes/inputs/input.checkbox.php:24
+msgid "Checkbox Input"
+msgstr ""
+
+#: classes/inputs/input.checkbox.php:25
+msgid "regular checkbox input"
+msgstr ""
+
+#: classes/inputs/input.checkbox.php:38 classes/inputs/input.date.php:43
+#: classes/inputs/input.email.php:38 classes/inputs/input.file.php:56
+#: classes/inputs/input.image.php:27 classes/inputs/input.instagram.php:65
+#: classes/inputs/input.masked.php:81 classes/inputs/input.radio.php:38
+#: classes/inputs/input.section.php:43 classes/inputs/input.select.php:38
+#: classes/inputs/input.text.php:38 classes/inputs/input.textarea.php:38
+#: templates/v10/_template_main.php:347
+msgid "Title"
+msgstr ""
+
+#: classes/inputs/input.checkbox.php:39 classes/inputs/input.date.php:44
+#: classes/inputs/input.email.php:39 classes/inputs/input.file.php:57
+#: classes/inputs/input.image.php:28 classes/inputs/input.instagram.php:66
+#: classes/inputs/input.masked.php:82 classes/inputs/input.radio.php:39
+#: classes/inputs/input.select.php:39 classes/inputs/input.text.php:39
+#: classes/inputs/input.textarea.php:39
+msgid "It will be shown as field label"
+msgstr ""
+
+#: classes/inputs/input.checkbox.php:43 classes/inputs/input.date.php:48
+#: classes/inputs/input.email.php:43 classes/inputs/input.file.php:61
+#: classes/inputs/input.hidden.php:39 classes/inputs/input.image.php:32
+#: classes/inputs/input.instagram.php:70 classes/inputs/input.masked.php:86
+#: classes/inputs/input.radio.php:43 classes/inputs/input.select.php:43
+#: classes/inputs/input.text.php:43 classes/inputs/input.textarea.php:43
+msgid "Data name"
+msgstr ""
+
+#: classes/inputs/input.checkbox.php:44 classes/inputs/input.date.php:49
+#: classes/inputs/input.email.php:44 classes/inputs/input.file.php:62
+#: classes/inputs/input.hidden.php:40 classes/inputs/input.image.php:33
+#: classes/inputs/input.instagram.php:71 classes/inputs/input.masked.php:87
+#: classes/inputs/input.radio.php:44 classes/inputs/input.select.php:44
+#: classes/inputs/input.text.php:44 classes/inputs/input.textarea.php:44
+msgid "REQUIRED: The identification name of this field, that you can insert into body email configuration. Note:Use only lowercase characters and underscores."
+msgstr ""
+
+#: classes/inputs/input.checkbox.php:48 classes/inputs/input.date.php:53
+#: classes/inputs/input.email.php:48 classes/inputs/input.file.php:66
+#: classes/inputs/input.image.php:37 classes/inputs/input.instagram.php:75
+#: classes/inputs/input.masked.php:91 classes/inputs/input.radio.php:48
+#: classes/inputs/input.section.php:48 classes/inputs/input.select.php:48
+#: classes/inputs/input.text.php:48 classes/inputs/input.textarea.php:48
+#: templates/file-detail.php:46 templates/v10/_template_main.php:350
+msgid "Description"
+msgstr ""
+
+#: classes/inputs/input.checkbox.php:49 classes/inputs/input.date.php:54
+#: classes/inputs/input.email.php:49 classes/inputs/input.file.php:67
+#: classes/inputs/input.image.php:38 classes/inputs/input.instagram.php:76
+#: classes/inputs/input.masked.php:92 classes/inputs/input.radio.php:49
+#: classes/inputs/input.select.php:49 classes/inputs/input.text.php:49
+#: classes/inputs/input.textarea.php:49
+msgid "Small description, it will be diplay near name title."
+msgstr ""
+
+#: classes/inputs/input.checkbox.php:53 classes/inputs/input.date.php:58
+#: classes/inputs/input.email.php:53 classes/inputs/input.file.php:71
+#: classes/inputs/input.image.php:42 classes/inputs/input.instagram.php:80
+#: classes/inputs/input.masked.php:96 classes/inputs/input.radio.php:53
+#: classes/inputs/input.select.php:53 classes/inputs/input.text.php:53
+#: classes/inputs/input.textarea.php:53 templates/admin/options.php:191
+msgid "Error message"
+msgstr ""
+
+#: classes/inputs/input.checkbox.php:54 classes/inputs/input.date.php:59
+#: classes/inputs/input.email.php:54 classes/inputs/input.file.php:72
+#: classes/inputs/input.image.php:43 classes/inputs/input.instagram.php:81
+#: classes/inputs/input.masked.php:97 classes/inputs/input.radio.php:54
+#: classes/inputs/input.select.php:54 classes/inputs/input.text.php:54
+#: classes/inputs/input.textarea.php:54
+msgid "Insert the error message for validation."
+msgstr ""
+
+#: classes/inputs/input.checkbox.php:58 classes/inputs/input.radio.php:59
+#: classes/inputs/input.select.php:59
+msgid "Add options"
+msgstr ""
+
+#: classes/inputs/input.checkbox.php:59 classes/inputs/input.radio.php:60
+#: classes/inputs/input.select.php:60
+msgid "Type each option per line"
+msgstr ""
+
+#: classes/inputs/input.checkbox.php:64 classes/inputs/input.date.php:64
+#: classes/inputs/input.email.php:59 classes/inputs/input.file.php:77
+#: classes/inputs/input.image.php:60 classes/inputs/input.instagram.php:86
+#: classes/inputs/input.masked.php:102 classes/inputs/input.radio.php:70
+#: classes/inputs/input.select.php:70 classes/inputs/input.text.php:59
+#: classes/inputs/input.textarea.php:59
+msgid "Required"
+msgstr ""
+
+#: classes/inputs/input.checkbox.php:65 classes/inputs/input.date.php:65
+#: classes/inputs/input.email.php:60 classes/inputs/input.file.php:78
+#: classes/inputs/input.image.php:61 classes/inputs/input.instagram.php:87
+#: classes/inputs/input.masked.php:103 classes/inputs/input.radio.php:71
+#: classes/inputs/input.select.php:71 classes/inputs/input.text.php:60
+#: classes/inputs/input.textarea.php:60
+msgid "Select this if it must be required."
+msgstr ""
+
+#: classes/inputs/input.checkbox.php:69 classes/inputs/input.date.php:69
+#: classes/inputs/input.email.php:64 classes/inputs/input.file.php:83
+#: classes/inputs/input.image.php:48 classes/inputs/input.instagram.php:92
+#: classes/inputs/input.masked.php:113 classes/inputs/input.radio.php:76
+#: classes/inputs/input.select.php:76 classes/inputs/input.text.php:64
+#: classes/inputs/input.textarea.php:64
+msgid "Class"
+msgstr ""
+
+#: classes/inputs/input.checkbox.php:70 classes/inputs/input.date.php:70
+#: classes/inputs/input.email.php:65 classes/inputs/input.file.php:84
+#: classes/inputs/input.image.php:49 classes/inputs/input.instagram.php:93
+#: classes/inputs/input.masked.php:114 classes/inputs/input.radio.php:77
+#: classes/inputs/input.select.php:77 classes/inputs/input.text.php:65
+#: classes/inputs/input.textarea.php:65
+msgid "Insert an additional class(es) (separateb by comma) for more personalization."
+msgstr ""
+
+#: classes/inputs/input.checkbox.php:74 classes/inputs/input.date.php:74
+#: classes/inputs/input.email.php:69 classes/inputs/input.file.php:89
+#: classes/inputs/input.image.php:54 classes/inputs/input.instagram.php:97
+#: classes/inputs/input.masked.php:118 classes/inputs/input.radio.php:81
+#: classes/inputs/input.select.php:81 classes/inputs/input.text.php:69
+#: classes/inputs/input.textarea.php:69
+msgid "Width"
+msgstr ""
+
+#: classes/inputs/input.checkbox.php:75 classes/inputs/input.date.php:75
+#: classes/inputs/input.email.php:70 classes/inputs/input.file.php:90
+#: classes/inputs/input.image.php:55 classes/inputs/input.instagram.php:98
+#: classes/inputs/input.masked.php:119 classes/inputs/input.radio.php:82
+#: classes/inputs/input.select.php:82 classes/inputs/input.text.php:70
+#: classes/inputs/input.textarea.php:70
+msgid "Type field width in % e.g: 50%"
+msgstr ""
+
+#: classes/inputs/input.checkbox.php:79
+msgid "Checked option(s)"
+msgstr ""
+
+#: classes/inputs/input.checkbox.php:80
+msgid "Type option(s) name (given above) if you want already checked."
+msgstr ""
+
+#: classes/inputs/input.checkbox.php:85
+msgid "Min. Checked option(s)"
+msgstr ""
+
+#: classes/inputs/input.checkbox.php:86
+msgid "How many options can be checked by user e.g: 2. Leave blank for default."
+msgstr ""
+
+#: classes/inputs/input.checkbox.php:91
+msgid "Max. Checked option(s)"
+msgstr ""
+
+#: classes/inputs/input.checkbox.php:92
+msgid "How many options can be checked by user e.g: 3. Leave blank for default."
+msgstr ""
+
+#: classes/inputs/input.date.php:24
+msgid "Date Input"
+msgstr ""
+
+#: classes/inputs/input.date.php:25
+msgid "regular date input"
+msgstr ""
+
+#: classes/inputs/input.date.php:79
+msgid "Date formats"
+msgstr ""
+
+#: classes/inputs/input.date.php:80
+msgid "Select date format."
+msgstr ""
+
+#: classes/inputs/input.email.php:24
+msgid "Email Input"
+msgstr ""
+
+#: classes/inputs/input.email.php:25
+msgid "regular email input"
+msgstr ""
+
+#: classes/inputs/input.email.php:75
+msgid "Send email"
+msgstr ""
+
+#: classes/inputs/input.email.php:76
+msgid "Select this if you want user get this form."
+msgstr ""
+
+#: classes/inputs/input.email.php:80 classes/inputs/input.file.php:180
+#: classes/inputs/input.image.php:90 classes/inputs/input.instagram.php:131
+msgid "Enable conditional logic"
+msgstr ""
+
+#: classes/inputs/input.email.php:81 classes/inputs/input.email.php:86
+#: classes/inputs/input.file.php:181 classes/inputs/input.file.php:186
+#: classes/inputs/input.image.php:91 classes/inputs/input.image.php:96
+#: classes/inputs/input.instagram.php:132
+#: classes/inputs/input.instagram.php:137
+msgid "Tick it to turn conditional logic to work below"
+msgstr ""
+
+#: classes/inputs/input.email.php:85 classes/inputs/input.file.php:185
+#: classes/inputs/input.image.php:95 classes/inputs/input.instagram.php:136
+msgid "Conditions"
+msgstr ""
+
+#: classes/inputs/input.file.php:25
+msgid "File Input"
+msgstr ""
+
+#: classes/inputs/input.file.php:26
+msgid "regular file input"
+msgstr ""
+
+#: classes/inputs/input.file.php:95
+msgid "Drag & Drop"
+msgstr ""
+
+#: classes/inputs/input.file.php:96
+msgid "Turn drag & drop on/eff."
+msgstr ""
+
+#: classes/inputs/input.file.php:101 classes/inputs/input.image.php:78
+msgid "Popup width"
+msgstr ""
+
+#: classes/inputs/input.file.php:102
+msgid "(if image) Popup window width in px e.g: 750"
+msgstr ""
+
+#: classes/inputs/input.file.php:107 classes/inputs/input.image.php:84
+msgid "Popup height"
+msgstr ""
+
+#: classes/inputs/input.file.php:108
+msgid "(if image) Popup window height in px e.g: 550"
+msgstr ""
+
+#: classes/inputs/input.file.php:113
+msgid "Button label (select files)"
+msgstr ""
+
+#: classes/inputs/input.file.php:114
+msgid "Type button label e.g: Select Photos"
+msgstr ""
+
+#: classes/inputs/input.file.php:120 classes/inputs/input.instagram.php:108
+msgid "Button class"
+msgstr ""
+
+#: classes/inputs/input.file.php:121
+msgid "Type class for both (select, upload) buttons"
+msgstr ""
+
+#: classes/inputs/input.file.php:125
+msgid "Files allowed"
+msgstr ""
+
+#: classes/inputs/input.file.php:126
+msgid "Type number of files allowed per upload by user, e.g: 3"
+msgstr ""
+
+#: classes/inputs/input.file.php:130
+msgid "File types"
+msgstr ""
+
+#: classes/inputs/input.file.php:131
+msgid "File types allowed seperated by comma, e.g: jpg,pdf,zip"
+msgstr ""
+
+#: classes/inputs/input.file.php:136 templates/_template_list_tree_o.php:128
+#: templates/bp/_template_list_tree.php:83
+msgid "File size"
+msgstr ""
+
+#: classes/inputs/input.file.php:137
+msgid "Type size with units in kb|mb per file uploaded by user, e.g: 3mb"
+msgstr ""
+
+#: classes/inputs/input.file.php:212
+msgid "Drag file(s) in this box"
+msgstr ""
+
+#: classes/inputs/input.file.php:214
+msgid "Drag file(s) or directory in this box"
+msgstr ""
+
+#: classes/inputs/input.file.php:270
+msgid "are you sure to delete this file?"
+msgstr ""
+
+#: classes/inputs/input.hidden.php:24
+msgid "Hidden Input"
+msgstr ""
+
+#: classes/inputs/input.hidden.php:25
+msgid "regular hidden input"
+msgstr ""
+
+#: classes/inputs/input.hidden.php:44
+msgid "Field value"
+msgstr ""
+
+#: classes/inputs/input.hidden.php:45
+msgid "you can pre-set the value of this hidden input."
+msgstr ""
+
+#: classes/inputs/input.image.php:19
+msgid "Image (Pre-uploaded)"
+msgstr ""
+
+#: classes/inputs/input.image.php:20
+msgid "Images selection"
+msgstr ""
+
+#: classes/inputs/input.image.php:66
+msgid "Select images"
+msgstr ""
+
+#: classes/inputs/input.image.php:67
+msgid "Select images from media library"
+msgstr ""
+
+#: classes/inputs/input.image.php:72
+msgid "Allow multiple?"
+msgstr ""
+
+#: classes/inputs/input.image.php:73
+msgid "Allow users to select more then one images?."
+msgstr ""
+
+#: classes/inputs/input.image.php:79
+msgid "Popup window width in px e.g: 750"
+msgstr ""
+
+#: classes/inputs/input.image.php:85
+msgid "Popup window height in px e.g: 550"
+msgstr ""
+
+#: classes/inputs/input.instagram.php:50
+msgid "Instagram import"
+msgstr ""
+
+#: classes/inputs/input.instagram.php:51
+msgid "Import photo from Instagram"
+msgstr ""
+
+#: classes/inputs/input.instagram.php:103
+msgid "Button label"
+msgstr ""
+
+#: classes/inputs/input.instagram.php:104
+msgid "Type button label e.g: Import Photos"
+msgstr ""
+
+#: classes/inputs/input.instagram.php:109
+msgid "Type class for import button"
+msgstr ""
+
+#: classes/inputs/input.instagram.php:114 templates/admin/options.php:311
+msgid "Client ID"
+msgstr ""
+
+#: classes/inputs/input.instagram.php:115
+msgid "Get client id from your Instagram app."
+msgstr ""
+
+#: classes/inputs/input.instagram.php:119
+msgid "Client secret"
+msgstr ""
+
+#: classes/inputs/input.instagram.php:120
+msgid "Get client secret from your Instagram app."
+msgstr ""
+
+#: classes/inputs/input.instagram.php:124
+msgid "Redirect URI"
+msgstr ""
+
+#: classes/inputs/input.instagram.php:125
+msgid "Paste redirect uri you used in Instagram app page, it MUST be matched."
+msgstr ""
+
+#: classes/inputs/input.instagram.php:262
+msgid "Import photos from Instagram"
+msgstr ""
+
+#: classes/inputs/input.masked.php:49
+msgid "Masked Input"
+msgstr ""
+
+#: classes/inputs/input.masked.php:50
+msgid "masked input"
+msgstr ""
+
+#: classes/inputs/input.masked.php:108
+msgid "Input Mask"
+msgstr ""
+
+#: classes/inputs/input.masked.php:109
+msgid "Input mask e.g:<br>a - Represents an alpha character (A-Z,a-z)<br>9 - Represents a numeric character (0-9)<br>* - Represents an alphanumeric character (A-Z,a-z,0-9)"
+msgstr ""
+
+#: classes/inputs/input.radio.php:24
+msgid "Radio Input"
+msgstr ""
+
+#: classes/inputs/input.radio.php:25
+msgid "regular radio input"
+msgstr ""
+
+#: classes/inputs/input.radio.php:64 classes/inputs/input.select.php:64
+msgid "Selected option"
+msgstr ""
+
+#: classes/inputs/input.radio.php:65
+msgid "Type option name (given above) if you want already radioed."
+msgstr ""
+
+#: classes/inputs/input.section.php:29
+msgid "Section"
+msgstr ""
+
+#: classes/inputs/input.section.php:30
+msgid "Form section"
+msgstr ""
+
+#: classes/inputs/input.section.php:44
+msgid "It will as section heading wrapped in h2"
+msgstr ""
+
+#: classes/inputs/input.section.php:49
+msgid "Type description, it will be diplay under section heading."
+msgstr ""
+
+#: classes/inputs/input.select.php:24
+msgid "Select-box Input"
+msgstr ""
+
+#: classes/inputs/input.select.php:25
+msgid "regular select-box input"
+msgstr ""
+
+#: classes/inputs/input.select.php:65
+msgid "Type option name (given above) if you want already selected."
+msgstr ""
+
+#: classes/inputs/input.select.php:103
+msgid "Select option"
+msgstr ""
+
+#: classes/inputs/input.text.php:24
+msgid "Text Input"
+msgstr ""
+
+#: classes/inputs/input.text.php:25
+msgid "regular text input"
+msgstr ""
+
+#: classes/inputs/input.textarea.php:24
+msgid "Textarea Input"
+msgstr ""
+
+#: classes/inputs/input.textarea.php:25
+msgid "regular textarea input"
+msgstr ""
+
+#: classes/plugin.class.php:135
+msgid "Files are being loaded ..."
+msgstr ""
+
+#: classes/plugin.class.php:136
+msgid "Please wait ..."
+msgstr ""
+
+#: classes/plugin.class.php:137
+msgid "File(s) are being saved"
+msgstr ""
+
+#: classes/plugin.class.php:138
+msgid "File is uploaded successfully"
+msgstr ""
+
+#: classes/plugin.class.php:139
+msgid "Sorry, but some error while uplaoding. Please try again"
+msgstr ""
+
+#: classes/plugin.class.php:140
+msgid ""
+"This file cannot be uploaded due to following error\n"
+"\n"
+"\n"
+msgstr ""
+
+#: classes/plugin.class.php:142
+msgid "Deleting file ..."
+msgstr ""
+
+#: classes/plugin.class.php:143
+msgid "File deleted"
+msgstr ""
+
+#: classes/plugin.class.php:144
+msgid "Updating file ..."
+msgstr ""
+
+#: classes/plugin.class.php:145
+msgid "Creating directory ..."
+msgstr ""
+
+#: classes/plugin.class.php:146
+msgid "Directory is created"
+msgstr ""
+
+#: classes/plugin.class.php:157
+msgid " File are allowed to upload"
+msgstr ""
+
+#: classes/plugin.class.php:158
+msgid "It will delete all child files/directories too, Delete it?"
+msgstr ""
+
+#: classes/plugin.class.php:159 templates/_template_list_files.php:254
+#: templates/_template_list_tree.php:278
+#: templates/_template_list_tree_o.php:246
+#: templates/bp/_template_list_files.php:208
+#: templates/bp/_template_list_tree.php:198
+msgid "Share file"
+msgstr ""
+
+#: classes/plugin.class.php:160 templates/_template_list_files.php:265
+#: templates/_template_list_tree.php:286
+#: templates/_template_list_tree_o.php:254
+#: templates/admin/_template_list_files.php:242
+#: templates/bp/_template_list_files.php:219
+#: templates/bp/_template_list_tree.php:206
+msgid "Edit file meta"
+msgstr ""
+
+#: classes/plugin.class.php:162
+msgid "Add Meta"
+msgstr ""
+
+#: classes/plugin.class.php:163
+msgid "Please add file Properties to proceed"
+msgstr ""
+
+#: classes/plugin.class.php:365
+msgid "Add New"
+msgstr ""
+
+#: classes/plugin.class.php:366
+msgid "Add User Files"
+msgstr ""
+
+#: classes/plugin.class.php:367 templates/v10/_template_main.php:374
+msgid "Edit"
+msgstr ""
+
+#: classes/plugin.class.php:368
+msgid "Edit User Files"
+msgstr ""
+
+#: classes/plugin.class.php:369
+msgid "New User Files"
+msgstr ""
+
+#: classes/plugin.class.php:370
+msgid "View"
+msgstr ""
+
+#: classes/plugin.class.php:371
+msgid "View User Files"
+msgstr ""
+
+#: classes/plugin.class.php:372
+msgid "Search User Files"
+msgstr ""
+
+#: classes/plugin.class.php:373
+msgid "No User Files found"
+msgstr ""
+
+#: classes/plugin.class.php:374
+msgid "No User Files found in Trash"
+msgstr ""
+
+#: classes/plugin.class.php:375
+msgid "Parent User Files"
+msgstr ""
+
+#: classes/plugin.class.php:404
+msgid "Search Group"
+msgstr ""
+
+#: classes/plugin.class.php:405
+msgid "All Groups"
+msgstr ""
+
+#: classes/plugin.class.php:406
+msgid "Parent Group"
+msgstr ""
+
+#: classes/plugin.class.php:407
+msgid "Parent Groups"
+msgstr ""
+
+#: classes/plugin.class.php:408
+msgid "Edit Group"
+msgstr ""
+
+#: classes/plugin.class.php:409
+msgid "Update Group"
+msgstr ""
+
+#: classes/plugin.class.php:410
+msgid "Add New Group"
+msgstr ""
+
+#: classes/plugin.class.php:411
+msgid "New Group Name"
+msgstr ""
+
+#: classes/plugin.class.php:412
+msgid "File Groups"
+msgstr ""
+
+#: classes/plugin.class.php:445
+msgid "Form added successfully"
+msgstr ""
+
+#: classes/plugin.class.php:512
+msgid "Form updated successfully"
+msgstr ""
+
+#: classes/plugin.class.php:519
+msgid "Error while updating form, please try again"
+msgstr ""
+
+#: classes/plugin.class.php:787
+msgid "File Shared"
+msgstr ""
+
+#: classes/plugin.class.php:791
+msgid "Unable to share file. Please try again!"
+msgstr ""
+
+#: classes/plugin.class.php:1230
+msgid " posted to "
+msgstr ""
+
+#: classes/plugin.class.php:1322
+msgid "A file is uploaded - "
+msgstr ""
+
+#: classes/plugin.class.php:1326
+msgid "A file is being uploaded via website: "
+msgstr ""
+
+#: classes/plugin.class.php:1357
+msgid "Mail sent successfully!"
+msgstr ""
+
+#: classes/plugin.class.php:1359
+msgid "Error: while seding Email"
+msgstr ""
+
+#: classes/plugin.class.php:1402
+msgid "File meta saved successfully"
+msgstr ""
+
+#: classes/plugin.class.php:1435
+msgid "Error while creating directory"
+msgstr ""
+
+#: classes/plugin.class.php:1472
+msgid "File type not valid"
+msgstr ""
+
+#: classes/plugin.class.php:1658
+#, php-format
+msgid "%s is successfully Removed"
+msgstr ""
+
+#: classes/plugin.class.php:1819 classes/plugin.class.php:1825
+msgid "File removed"
+msgstr ""
+
+#: classes/plugin.class.php:1832
+#, php-format
+msgid "Error while deleting file %s"
+msgstr ""
+
+#: classes/plugin.class.php:2054
+msgid "Meta deleted successfully"
+msgstr ""
+
+#: classes/plugin.class.php:2326
+#, php-format
+msgid "no file found at %s"
+msgstr ""
+
+#: classes/plugin.class.php:2438
+msgid "A file is being shared by user: "
+msgstr ""
+
+#: classes/plugin.class.php:2471
+msgid "File is shared successfully"
+msgstr ""
+
+#: classes/plugin.class.php:2475
+msgid "Please try again"
+msgstr ""
+
+#: classes/plugin.class.php:2594 templates/v10/_template_main.php:271
+msgid "Download"
+msgstr ""
+
+#: classes/plugin.class.php:2778
+msgid "File owner"
+msgstr ""
+
+#: classes/plugin.class.php:2779 templates/_template_list_files.php:253
+#: templates/_template_list_tree.php:277
+#: templates/_template_list_tree_o.php:245
+#: templates/admin/_template_list_files.php:229
+#: templates/bp/_template_list_files.php:207
+#: templates/bp/_template_list_tree.php:197
+msgid "Download file"
+msgstr ""
+
+#: classes/plugin.class.php:2780
+msgid "File Saved"
+msgstr ""
+
+#: classes/plugin.class.php:2781 templates/v10/_template_main.php:220
+msgid "Date"
+msgstr ""
+
+#: classes/plugin.class.php:2809 templates/admin/options.php:531
+msgid "Amazon S3"
+msgstr ""
+
+#: classes/plugin.class.php:2811
+msgid "Local Server"
+msgstr ""
+
+#: classes/plugin.class.php:3511
+msgid "File updated"
+msgstr ""
+
+#: classes/plugin.class.php:3513
+msgid "Error while updating file, try again"
+msgstr ""
+
+#: classes/plugin.class.php:3531
+msgid "Username"
+msgstr ""
+
+#: classes/plugin.class.php:3534 classes/plugin.class.php:3597
+#: templates/index.php:616
+msgid "Share"
+msgstr ""
+
+#: classes/plugin.class.php:3537
+msgid "Send email?"
+msgstr ""
+
+#: classes/plugin.class.php:3544
+msgid "All Users"
+msgstr ""
+
+#: config.php:34
+msgid "It is PRO"
+msgstr ""
+
+#: templates/_template_directory.php:16
+#: templates/bp/_template_directory.php:16
+#: templates/v10/_template_main.php:151
+msgid "Directory Name"
+msgstr ""
+
+#: templates/_template_directory.php:20
+#: templates/bp/_template_directory.php:20
+msgid "Directory Details"
+msgstr ""
+
+#: templates/_template_directory.php:35 templates/_template_main.php:31
+#: templates/bp/_template_directory.php:36 templates/bp/_template_main.php:32
+msgid "Create directory"
+msgstr ""
+
+#: templates/_template_file_meta.php:266
+msgid "Update"
+msgstr ""
+
+#: templates/_template_list_files.php:30 templates/_template_list_tree.php:28
+#: templates/_template_list_tree_o.php:29
+#: templates/bp/_template_list_files.php:30
+#: templates/bp/_template_list_tree.php:29
+msgid "Files and Directories"
+msgstr ""
+
+#: templates/_template_list_files.php:83
+#, php-format
+msgid "<a title=\"Shared Files\" href=\"%s\"><i class=\"fa fa-share-alt\"></i></a></span><p style=\"clear: both; margin: 0;\"></p></div>"
+msgstr ""
+
+#: templates/_template_list_files.php:124
+#: templates/admin/_template_list_files.php:112
+#: templates/bp/_template_list_files.php:78
+msgid "Thumb"
+msgstr ""
+
+#: templates/_template_list_files.php:127
+#: templates/admin/_template_list_files.php:115
+#: templates/bp/_template_list_files.php:81
+msgid "File Title"
+msgstr ""
+
+#: templates/_template_list_files.php:130
+#: templates/admin/_template_list_files.php:118
+#: templates/bp/_template_list_files.php:84
+#: templates/v10/_template_main.php:303
+msgid "File Size"
+msgstr ""
+
+#: templates/_template_list_files.php:133
+#: templates/admin/_template_list_files.php:121
+#: templates/bp/_template_list_files.php:87
+msgid "Uploaded on"
+msgstr ""
+
+#: templates/_template_list_files.php:136
+#: templates/admin/_template_list_files.php:124
+#: templates/bp/_template_list_files.php:90
+msgid "File Tools"
+msgstr ""
+
+#: templates/_template_list_files.php:139
+#: templates/admin/_template_list_files.php:127
+#: templates/bp/_template_list_files.php:93
+msgid "Download Stats"
+msgstr ""
+
+#: templates/_template_list_files.php:214
+#: templates/admin/_template_list_files.php:193
+#: templates/bp/_template_list_files.php:168
+msgid "Shared by "
+msgstr ""
+
+#: templates/_template_list_files.php:218
+#: templates/_template_list_tree.php:245
+#: templates/_template_list_tree_o.php:213
+#: templates/admin/_template_list_files.php:197
+#: templates/bp/_template_list_files.php:172
+#: templates/bp/_template_list_tree.php:165
+msgid "File categoris: "
+msgstr ""
+
+#: templates/_template_list_files.php:259
+#: templates/admin/_template_list_files.php:235
+#: templates/bp/_template_list_files.php:213
+msgid "Open directory"
+msgstr ""
+
+#: templates/_template_list_files.php:269
+#: templates/_template_list_tree.php:287
+#: templates/_template_list_tree_o.php:255
+#: templates/admin/_template_list_files.php:243
+#: templates/bp/_template_list_files.php:223
+#: templates/bp/_template_list_tree.php:207
+msgid "Delete file"
+msgstr ""
+
+#: templates/_template_list_files.php:286
+#: templates/admin/_template_list_files.php:256
+#: templates/bp/_template_list_files.php:240
+msgid "No Data"
+msgstr ""
+
+#: templates/_template_list_tree_o.php:88
+#: templates/bp/_template_list_files.php:49
+#: templates/bp/_template_list_tree.php:50 templates/v10/_template_main.php:33
+msgid "My Files"
+msgstr ""
+
+#: templates/_template_list_tree_o.php:89
+#, php-format
+msgid "<a href=\"%s\">Shared files</a>"
+msgstr ""
+
+#: templates/_template_list_tree_o.php:125
+#: templates/bp/_template_list_tree.php:80
+msgid "File name"
+msgstr ""
+
+#: templates/_template_list_tree_o.php:131
+#: templates/bp/_template_list_tree.php:86
+msgid "Uploaded date"
+msgstr ""
+
+#: templates/_template_list_tree_o.php:134
+#: templates/bp/_template_list_tree.php:89
+msgid "File tools"
+msgstr ""
+
+#: templates/_template_main.php:29 templates/bp/_template_main.php:30
+msgid "Upload files"
+msgstr ""
+
+#: templates/_template_share_file.php:49 templates/admin/create-form.php:91
+#: templates/details.php:714 templates/index.php:629
+#: templates/v10/_template_main.php:399
+msgid "Subject"
+msgstr ""
+
+#: templates/_template_share_file.php:52 templates/details.php:720
+#: templates/index.php:635
+msgid "Email separated by commas"
+msgstr ""
+
+#: templates/_template_share_file.php:55 templates/details.php:723
+#: templates/index.php:638
+msgid "Any message"
+msgstr ""
+
+#: templates/_template_share_file.php:58 templates/details.php:726
+#: templates/index.php:641 templates/v10/_template_main.php:388
+msgid "Send File"
+msgstr ""
+
+#: templates/_template_uploader.php:43 templates/bp/_template_uploader.php:44
+#, php-format
+msgid "File max size: %s"
+msgstr ""
+
+#: templates/_template_uploader.php:44 templates/bp/_template_uploader.php:45
+#, php-format
+msgid "File types: %s"
+msgstr ""
+
+#: templates/_template_uploader.php:45 templates/bp/_template_uploader.php:46
+#, php-format
+msgid "Files allowed: %s"
+msgstr ""
+
+#: templates/_template_uploader.php:46 templates/bp/_template_uploader.php:47
+#, php-format
+msgid "You have used %s of %s disk storage space."
+msgstr ""
+
+#: templates/_template_uploader.php:293
+#: templates/bp/_template_uploader.php:299
+msgid "File title"
+msgstr ""
+
+#: templates/_template_uploader.php:294
+#: templates/bp/_template_uploader.php:300
+msgid "Description (optional)"
+msgstr ""
+
+#: templates/admin/_template_list_files.php:32
+#, php-format
+msgid "Files and Directories by %s"
+msgstr ""
+
+#: templates/admin/create-form.php:46
+msgid "Existing forms"
+msgstr ""
+
+#: templates/admin/create-form.php:53
+msgid "Form Settings"
+msgstr ""
+
+#: templates/admin/create-form.php:54
+msgid "Form Fields"
+msgstr ""
+
+#: templates/admin/create-form.php:56 templates/admin/settings.php:107
+msgid "Save settings"
+msgstr ""
+
+#: templates/admin/create-form.php:66
+msgid "Form name"
+msgstr ""
+
+#: templates/admin/create-form.php:69
+msgid "For your reference"
+msgstr ""
+
+#: templates/admin/create-form.php:72
+msgid "Receiver(s)"
+msgstr ""
+
+#: templates/admin/create-form.php:75
+msgid "Define the emails used (separeted by comma) to receive emails."
+msgstr ""
+
+#: templates/admin/create-form.php:78
+msgid "Sender Email"
+msgstr ""
+
+#: templates/admin/create-form.php:81
+msgid "Define from what email send the message."
+msgstr ""
+
+#: templates/admin/create-form.php:84
+msgid "Sender Name"
+msgstr ""
+
+#: templates/admin/create-form.php:87
+msgid "Define the name of email that send the message."
+msgstr ""
+
+#: templates/admin/create-form.php:94
+msgid "Define the subject of the email sent to you."
+msgstr ""
+
+#: templates/admin/create-form.php:98
+msgid "Submit Button Label"
+msgstr ""
+
+#: templates/admin/create-form.php:101
+msgid "Define the label of submit button."
+msgstr ""
+
+#: templates/admin/create-form.php:104
+msgid "Submit Button Class"
+msgstr ""
+
+#: templates/admin/create-form.php:107
+msgid "Define the class of submit button."
+msgstr ""
+
+#: templates/admin/create-form.php:111
+msgid "Success Message"
+msgstr ""
+
+#: templates/admin/create-form.php:114 templates/admin/create-form.php:120
+msgid "Define the message when there is an error on send of email."
+msgstr ""
+
+#: templates/admin/create-form.php:117
+msgid "Error Message"
+msgstr ""
+
+#: templates/admin/create-form.php:123
+msgid "Thumb size for images"
+msgstr ""
+
+#: templates/admin/create-form.php:126
+msgid "Provide thumb size for images e.g: 75"
+msgstr ""
+
+#: templates/admin/create-form.php:131
+msgid "Form styling/css"
+msgstr ""
+
+#: templates/admin/create-form.php:133
+msgid "Form styling/css."
+msgstr ""
+
+#: templates/admin/create-form.php:143 templates/admin/file-meta.php:127
+msgid "select input type below and drag it on right side. Then set more options"
+msgstr ""
+
+#: templates/admin/create-form.php:172 templates/admin/file-meta.php:164
+msgid "Drag form fields here"
+msgstr ""
+
+#: templates/admin/create-form.php:174 templates/admin/file-meta.php:166
+msgid "Collapse all"
+msgstr ""
+
+#: templates/admin/create-form.php:176 templates/admin/file-meta.php:168
+msgid "Expand all"
+msgstr ""
+
+#: templates/admin/create-form.php:198 templates/admin/file-meta.php:203
+msgid "Are you sure to remove this input field?"
+msgstr ""
+
+#: templates/admin/create-form.php:301 templates/admin/create-form.php:354
+#: templates/admin/file-meta.php:328 templates/admin/file-meta.php:379
+msgid "Show"
+msgstr ""
+
+#: templates/admin/create-form.php:302 templates/admin/create-form.php:355
+#: templates/admin/file-meta.php:329 templates/admin/file-meta.php:380
+msgid "Hide"
+msgstr ""
+
+#: templates/admin/create-form.php:306 templates/admin/file-meta.php:333
+msgid "only if"
+msgstr ""
+
+#: templates/admin/create-form.php:312 templates/admin/create-form.php:359
+#: templates/admin/file-meta.php:339 templates/admin/file-meta.php:384
+msgid "All"
+msgstr ""
+
+#: templates/admin/create-form.php:313 templates/admin/create-form.php:360
+#: templates/admin/file-meta.php:340 templates/admin/file-meta.php:385
+msgid "Any"
+msgstr ""
+
+#: templates/admin/create-form.php:316 templates/admin/create-form.php:363
+#: templates/admin/file-meta.php:343 templates/admin/file-meta.php:388
+msgid " of the following matches"
+msgstr ""
+
+#: templates/admin/create-form.php:326 templates/admin/create-form.php:367
+#: templates/admin/file-meta.php:351 templates/admin/file-meta.php:392
+msgid "Rule # "
+msgstr ""
+
+#: templates/admin/create-form.php:337 templates/admin/create-form.php:374
+#: templates/admin/file-meta.php:362 templates/admin/file-meta.php:398
+msgid "is"
+msgstr ""
+
+#: templates/admin/create-form.php:338 templates/admin/create-form.php:375
+#: templates/admin/file-meta.php:363 templates/admin/file-meta.php:399
+msgid "not"
+msgstr ""
+
+#: templates/admin/create-form.php:339 templates/admin/create-form.php:376
+#: templates/admin/file-meta.php:364 templates/admin/file-meta.php:400
+msgid "greater then"
+msgstr ""
+
+#: templates/admin/create-form.php:340 templates/admin/create-form.php:377
+#: templates/admin/file-meta.php:365 templates/admin/file-meta.php:401
+msgid "less then"
+msgstr ""
+
+#: templates/admin/create-form.php:394 templates/admin/file-meta.php:418
+msgid "Select/Upload Image"
+msgstr ""
+
+#: templates/admin/existing-meta.php:9
+msgid "Existing Form Meta"
+msgstr ""
+
+#: templates/admin/existing-meta.php:16 templates/admin/existing-meta.php:24
+msgid "Name."
+msgstr ""
+
+#: templates/admin/existing-meta.php:17 templates/admin/existing-meta.php:25
+msgid "Meta."
+msgstr ""
+
+#: templates/admin/existing-meta.php:18
+msgid "Form."
+msgstr ""
+
+#: templates/admin/existing-meta.php:19 templates/admin/existing-meta.php:27
+msgid "Delete."
+msgstr ""
+
+#: templates/admin/existing-meta.php:26
+msgid "Shortcode."
+msgstr ""
+
+#: templates/admin/file-meta.php:115
+msgid "File meta settings"
+msgstr ""
+
+#: templates/admin/file-meta.php:180
+msgid "Save all changes"
+msgstr ""
+
+#: templates/admin/file-meta.php:278 templates/admin/file-meta.php:286
+msgid "option"
+msgstr ""
+
+#: templates/admin/file-meta.php:279 templates/admin/file-meta.php:287
+msgid "price (if any)"
+msgstr ""
+
+#: templates/admin/ftp-files.php:10
+msgid "Sync FTP Files"
+msgstr ""
+
+#: templates/admin/ftp-files.php:16
+msgid "Post FTP files"
+msgstr ""
+
+#: templates/admin/get-addon.php:7
+msgid "Best Photo Editing Tool"
+msgstr ""
+
+#: templates/admin/get-addon.php:8
+msgid "This plugin can be used as best Photo Editing Tool to allow your users to upload and Edit Photos online using world's best Photo Editor 'Aviary'. There is an Add-on for this"
+msgstr ""
+
+#: templates/admin/get-addon.php:9
+msgid "What is Aviary?"
+msgstr ""
+
+#: templates/admin/get-addon.php:10
+msgid "See Demo"
+msgstr ""
+
+#: templates/admin/get-addon.php:11
+msgid "Get Pro + Addon"
+msgstr ""
+
+#: templates/admin/options.php:3
+msgid "Images thumb size"
+msgstr ""
+
+#: templates/admin/options.php:4
+msgid "Enter integer value for thumb size for images"
+msgstr ""
+
+#: templates/admin/options.php:8
+msgid "type size in px like: <strong>100</strong>"
+msgstr ""
+
+#: templates/admin/options.php:10
+msgid "Select File title"
+msgstr ""
+
+#: templates/admin/options.php:11 templates/admin/options.php:18
+msgid "Enter text for uploader button"
+msgstr ""
+
+#: templates/admin/options.php:17
+msgid "Upload/Save File title"
+msgstr ""
+
+#: templates/admin/options.php:24
+msgid "Uploader button background color"
+msgstr ""
+
+#: templates/admin/options.php:25
+msgid "Enter background color for uploader button"
+msgstr ""
+
+#: templates/admin/options.php:31
+msgid "Uploader button text color"
+msgstr ""
+
+#: templates/admin/options.php:32
+msgid "Enter text color for uploader button"
+msgstr ""
+
+#: templates/admin/options.php:38
+msgid "Uploader area background color"
+msgstr ""
+
+#: templates/admin/options.php:39
+msgid "Enter background color for uploader area"
+msgstr ""
+
+#: templates/admin/options.php:45
+msgid "Maximum file size in MB"
+msgstr ""
+
+#: templates/admin/options.php:46
+msgid "Enter maximum file size in mb"
+msgstr ""
+
+#: templates/admin/options.php:50
+msgid "e.g: <strong>3mb</strong>"
+msgstr ""
+
+#: templates/admin/options.php:52
+msgid "Max numbers of files (Max 5 allowed in free version)"
+msgstr ""
+
+#: templates/admin/options.php:53
+msgid "Enter no for max files to upload at once"
+msgstr ""
+
+#: templates/admin/options.php:57
+msgid "e.g: <strong>3</strong>"
+msgstr ""
+
+#: templates/admin/options.php:59
+msgid "File Format/Type"
+msgstr ""
+
+#: templates/admin/options.php:60 templates/admin/options.php:75
+#: templates/admin/options.php:90
+msgid "Enter type of files to upload"
+msgstr ""
+
+#: templates/admin/options.php:72
+msgid "Select quick format for file. If custom, please specify below"
+msgstr ""
+
+#: templates/admin/options.php:74
+msgid "Custom types"
+msgstr ""
+
+#: templates/admin/options.php:79
+msgid "e.g: <strong>jpg,png,gif,zip,pdf</strong> (it will work if above is set to custom)"
+msgstr ""
+
+#: templates/admin/options.php:81
+msgid "Allow File Sharing"
+msgstr ""
+
+#: templates/admin/options.php:82
+msgid "It will allow users to share files with other users."
+msgstr ""
+
+#: templates/admin/options.php:87
+msgid "It will allow users to share files with other users. NOTE: You must need to purchase and install <a target=\"_blank\" href=\"https://www.2checkout.com/checkout/purchase?sid=1686663&quantity=1&product_id=14\">User Specific Addon</a>"
+msgstr ""
+
+#: templates/admin/options.php:89
+msgid "Allow Drag Drop"
+msgstr ""
+
+#: templates/admin/options.php:95
+msgid "It allows to upload files by Drag and Drop"
+msgstr ""
+
+#: templates/admin/options.php:97
+msgid "Enable Old Version"
+msgstr ""
+
+#: templates/admin/options.php:98
+msgid "It will show old file template"
+msgstr ""
+
+#: templates/admin/options.php:103
+msgid "Enable Old version, like listing in tables if you do not like new style"
+msgstr ""
+
+#: templates/admin/options.php:124
+msgid "Min. files allowed to upload"
+msgstr ""
+
+#: templates/admin/options.php:125
+msgid "Enter min. files in numbers. Leave blank for disable this."
+msgstr ""
+
+#: templates/admin/options.php:129
+msgid "like: 2"
+msgstr ""
+
+#: templates/admin/options.php:131
+msgid "Default file size quota for user role to upload"
+msgstr ""
+
+#: templates/admin/options.php:132
+msgid "Provide default file size quota for user role. Leave blank for disable this."
+msgstr ""
+
+#: templates/admin/options.php:136
+msgid "Write per line: e.g: <strong>author|3mb</strong>"
+msgstr ""
+
+#: templates/admin/options.php:138
+msgid "Send email to admin?"
+msgstr ""
+
+#: templates/admin/options.php:139 templates/admin/options.php:144
+#: templates/admin/options.php:151
+msgid "Please check if you want to send email notification to admin."
+msgstr ""
+
+#: templates/admin/options.php:146
+msgid "From Email"
+msgstr ""
+
+#: templates/admin/options.php:147
+msgid "Specify an email as to get Notifications and also used as FROM. Recommended is to use Email on current Domain"
+msgstr ""
+
+#: templates/admin/options.php:154
+msgid "User ID for public file upload"
+msgstr ""
+
+#: templates/admin/options.php:155
+msgid "Enter the user id under which public files will be upload."
+msgstr ""
+
+#: templates/admin/options.php:159 templates/admin/options.php:246
+msgid "Type userID like: <strong>1</strong>"
+msgstr ""
+
+#: templates/admin/options.php:162
+msgid "Email recipients for file upload"
+msgstr ""
+
+#: templates/admin/options.php:163 templates/admin/options.php:167
+msgid "Enter email, separated by comma to receive notifications for file upload."
+msgstr ""
+
+#: templates/admin/options.php:169
+msgid "File Rename"
+msgstr ""
+
+#: templates/admin/options.php:170
+msgid "Rename uploaded file with Timestamp?"
+msgstr ""
+
+#: templates/admin/options.php:179
+msgid "Select none for defaut settings"
+msgstr ""
+
+#: templates/admin/options.php:184
+msgid "File saved message"
+msgstr ""
+
+#: templates/admin/options.php:185 templates/admin/options.php:189
+msgid "Displayed when file is uploaded/saved successfully"
+msgstr ""
+
+#: templates/admin/options.php:188
+msgid "File(s) Uploaded!"
+msgstr ""
+
+#: templates/admin/options.php:192 templates/admin/options.php:196
+msgid "This message will be shown when error occur in uploading file"
+msgstr ""
+
+#: templates/admin/options.php:195
+msgid "Fail to upload!"
+msgstr ""
+
+#: templates/admin/options.php:198
+msgid "Message for Non Logged in users"
+msgstr ""
+
+#: templates/admin/options.php:199 templates/admin/options.php:203
+msgid "This message will be displayed if user is not logged. If not provided user will be redirected to default login page."
+msgstr ""
+
+#: templates/admin/options.php:205
+msgid "Message for users who do not belongs to authorized role."
+msgstr ""
+
+#: templates/admin/options.php:206 templates/admin/options.php:210
+msgid "This message will be displayed if user is logged in, but he do not belongs to authorized role."
+msgstr ""
+
+#: templates/admin/options.php:216
+msgid "Upload files to Amazon Bucket?"
+msgstr ""
+
+#: templates/admin/options.php:217
+msgid "Enable Amazon Addon"
+msgstr ""
+
+#: templates/admin/options.php:225
+msgid "API Key"
+msgstr ""
+
+#: templates/admin/options.php:226
+msgid "Amazon API Key"
+msgstr ""
+
+#: templates/admin/options.php:233
+msgid "API Secret"
+msgstr ""
+
+#: templates/admin/options.php:234
+msgid "Amazon API Secret"
+msgstr ""
+
+#: templates/admin/options.php:241
+msgid "Bucket Name"
+msgstr ""
+
+#: templates/admin/options.php:242
+msgid "You must create BUCKET in Amazon s3 service, otherwise files will not be saved to Amazon."
+msgstr ""
+
+#: templates/admin/options.php:248
+msgid "Persmission: Public?"
+msgstr ""
+
+#: templates/admin/options.php:249
+msgid "With public permission everyone can download file with URL. Uncheck for Private"
+msgstr ""
+
+#: templates/admin/options.php:273
+msgid "Notify user in files list about ftp uploaded file?"
+msgstr ""
+
+#: templates/admin/options.php:274
+msgid "Please check if you want to notify user in files list about ftp uploaded files."
+msgstr ""
+
+#: templates/admin/options.php:279
+msgid "Please check if you want to notify user in files list about ftp uploaded files.."
+msgstr ""
+
+#: templates/admin/options.php:281
+msgid "Notification text"
+msgstr ""
+
+#: templates/admin/options.php:282 templates/admin/options.php:286
+msgid "Write notification text for user."
+msgstr ""
+
+#: templates/admin/options.php:294
+msgid "Upload files from Google Drive?"
+msgstr ""
+
+#: templates/admin/options.php:295
+msgid "Enable Google Drive"
+msgstr ""
+
+#: templates/admin/options.php:300
+msgid "Enable Google Drive in upload area!"
+msgstr ""
+
+#: templates/admin/options.php:303
+msgid "Google Drive API Key"
+msgstr ""
+
+#: templates/admin/options.php:304
+msgid "Developer Key"
+msgstr ""
+
+#: templates/admin/options.php:312
+msgid "Google client ID"
+msgstr ""
+
+#: templates/admin/options.php:321
+msgid "Enable Image Sizing"
+msgstr ""
+
+#: templates/admin/options.php:327
+msgid "It will enable following parameters for images"
+msgstr ""
+
+#: templates/admin/options.php:329
+msgid "Image Minimum Width"
+msgstr ""
+
+#: templates/admin/options.php:334
+msgid "Image minimum width in pixels, default 320"
+msgstr ""
+
+#: templates/admin/options.php:336
+msgid "Image Minimum Height"
+msgstr ""
+
+#: templates/admin/options.php:341
+msgid "Image minimum height in pixels, default 240"
+msgstr ""
+
+#: templates/admin/options.php:343
+msgid "Image Maximum Width"
+msgstr ""
+
+#: templates/admin/options.php:348
+msgid "Image maximum width in pixels, default 3840"
+msgstr ""
+
+#: templates/admin/options.php:350
+msgid "Image Maximum Height"
+msgstr ""
+
+#: templates/admin/options.php:355
+msgid "Image maximum height in pixels, default 2160"
+msgstr ""
+
+#: templates/admin/options.php:357
+msgid "Resize / Transform"
+msgstr ""
+
+#: templates/admin/options.php:362
+msgid "maxWidth,maxHeight for auto transform large images, eg <strong>320,240</strong>. Leave blank to disable transform"
+msgstr ""
+
+#: templates/admin/options.php:377
+msgid "Hide upload section?"
+msgstr ""
+
+#: templates/admin/options.php:378 templates/admin/options.php:383
+msgid "Please check if you want to hide upload section."
+msgstr ""
+
+#: templates/admin/options.php:385
+msgid "Hide file list section?"
+msgstr ""
+
+#: templates/admin/options.php:386 templates/admin/options.php:391
+msgid "Please check if you want to hide uploaded file section."
+msgstr ""
+
+#: templates/admin/options.php:393
+msgid "Allow public file upload?"
+msgstr ""
+
+#: templates/admin/options.php:394 templates/admin/options.php:399
+msgid "Please check if you want to allow public (non logged in users) to upload files."
+msgstr ""
+
+#: templates/admin/options.php:402
+msgid "Allow user to create directory?"
+msgstr ""
+
+#: templates/admin/options.php:403 templates/admin/options.php:408
+msgid "Please check if you want to enable create directories tab in uploader area."
+msgstr ""
+
+#: templates/admin/options.php:411
+msgid "Display time in file list view?"
+msgstr ""
+
+#: templates/admin/options.php:412 templates/admin/options.php:417
+msgid "Please check if you want to display time with date format in file list view."
+msgstr ""
+
+#: templates/admin/options.php:420
+msgid "Enable tree view"
+msgstr ""
+
+#: templates/admin/options.php:421 templates/admin/options.php:426
+msgid "Please check if you want to enable tree view for files and directories"
+msgstr ""
+
+#: templates/admin/options.php:428
+msgid "Tree Skin"
+msgstr ""
+
+#: templates/admin/options.php:429 templates/admin/options.php:442
+msgid "Select theme for tree view of files"
+msgstr ""
+
+#: templates/admin/options.php:445
+msgid "Allow Send File"
+msgstr ""
+
+#: templates/admin/options.php:446
+msgid "Allow users to Send File in email"
+msgstr ""
+
+#: templates/admin/options.php:457
+msgid "Basic Settings"
+msgstr ""
+
+#: templates/admin/options.php:459
+msgid "Set options as per your need"
+msgstr ""
+
+#: templates/admin/options.php:463
+msgid "Advanced Settings"
+msgstr ""
+
+#: templates/admin/options.php:465
+msgid "More features in pro version is added below"
+msgstr ""
+
+#: templates/admin/options.php:470
+msgid "Frontend Settings"
+msgstr ""
+
+#: templates/admin/options.php:472
+msgid "File manager front-end settings"
+msgstr ""
+
+#: templates/admin/options.php:477
+msgid "Messages"
+msgstr ""
+
+#: templates/admin/options.php:479
+msgid "All user messages regarding file manager"
+msgstr ""
+
+#: templates/admin/options.php:484
+msgid "Image Options"
+msgstr ""
+
+#: templates/admin/options.php:486
+msgid "Following options will work when beta version is enabled"
+msgstr ""
+
+#: templates/admin/options.php:498 templates/v10/_template_main.php:361
+msgid "File Meta"
+msgstr ""
+
+#: templates/admin/options.php:500
+msgid "More field can be attached to File uploader"
+msgstr ""
+
+#: templates/admin/options.php:505
+msgid "FTP upload"
+msgstr ""
+
+#: templates/admin/options.php:507
+msgid "Post files to users accounts uploaded through FTP"
+msgstr ""
+
+#: templates/admin/options.php:519
+msgid "How to use?"
+msgstr ""
+
+#: templates/admin/options.php:521
+msgid "Following guide is provided to use this plugin"
+msgstr ""
+
+#: templates/admin/options.php:533
+msgid "<a href=\"http://najeebmedia.com/n-media-file-uploader-add-on-for-amazon-s3/\">See here how to use this Addon</a>"
+msgstr ""
+
+#: templates/admin/options.php:542
+msgid "Google Drive"
+msgstr ""
+
+#: templates/admin/options.php:544
+msgid "Upload files from Google Drive!"
+msgstr ""
+
+#: templates/admin/user-files.php:28
+msgid "&laquo; All Users"
+msgstr ""
+
+#: templates/admin/user-files.php:40
+msgid "Sr No"
+msgstr ""
+
+#: templates/admin/user-files.php:42
+msgid "User Name"
+msgstr ""
+
+#: templates/admin/user-files.php:44
+msgid "Files Stats"
+msgstr ""
+
+#: templates/admin/user-files.php:46
+msgid "User Quota"
+msgstr ""
+
+#: templates/admin/user-files.php:66
+#, php-format
+msgid "<a href=\"%s\" style=\"text-align:center;width:100px\" class=\"button\">"
+msgstr ""
+
+#: templates/admin/user-files.php:79
+#, php-format
+msgid "Used %s of %s disk storage space."
+msgstr ""
+
+#: templates/bp/_template_list_files.php:50
+#, php-format
+msgid "<a href=\"%s\">Group Files</a>"
+msgstr ""
+
+#: templates/bp/_template_list_tree.php:51
+#, php-format
+msgid "<a href=\"%s\">Shared Files</a>"
+msgstr ""
+
+#: templates/details.php:9 templates/index.php:12
+msgid "Removed"
+msgstr ""
+
+#: templates/details.php:11 templates/index.php:14
+msgid "Fail"
+msgstr ""
+
+#: templates/details.php:663 templates/index.php:543
+msgid "Manage Files"
+msgstr ""
+
+#: templates/details.php:668
+msgid "My File Details"
+msgstr ""
+
+#: templates/details.php:735
+msgid "Delete File?"
+msgstr ""
+
+#: templates/details.php:739
+msgid "File sharing"
+msgstr ""
+
+#: templates/details.php:741
+msgid "Share this file"
+msgstr ""
+
+#: templates/file-detail.php:26
+msgid "File Name :"
+msgstr ""
+
+#: templates/file-detail.php:31
+msgid "File Size:"
+msgstr ""
+
+#: templates/file-detail.php:36
+msgid "File Type:"
+msgstr ""
+
+#: templates/file-detail.php:54
+msgid "Meta"
+msgstr ""
+
+#: templates/file-detail.php:58
+msgid "Key"
+msgstr ""
+
+#: templates/file-detail.php:59 templates/v10/_template_main.php:367
+msgid "Value"
+msgstr ""
+
+#: templates/file-detail.php:78
+msgid "Comments"
+msgstr ""
+
+#: templates/index.php:544
+msgid "Upload Files"
+msgstr ""
+
+#: templates/index.php:545
+msgid "Delete all Files"
+msgstr ""
+
+#: templates/index.php:555
+msgid "A-Z"
+msgstr ""
+
+#: templates/index.php:556
+msgid "Z-A"
+msgstr ""
+
+#: templates/index.php:558
+msgid "Clear Search"
+msgstr ""
+
+#: templates/index.php:561
+#, php-format
+msgid "%u Result(s) found!"
+msgstr ""
+
+#: templates/index.php:563
+msgid "Refresh"
+msgstr ""
+
+#: templates/render.email.php:169
+msgid "File(s) are attached"
+msgstr ""
+
+#: templates/render.input.php:336
+#, php-format
+msgid "<label for=\"%1$s\">%2$s</label><br />"
+msgstr ""
+
+#: templates/v10/_template_main.php:20 templates/v10/_template_main.php:168
+msgid "Upload"
+msgstr ""
+
+#: templates/v10/_template_main.php:30
+msgid "Log Out"
+msgstr ""
+
+#: templates/v10/_template_main.php:34
+msgid "Recent"
+msgstr ""
+
+#: templates/v10/_template_main.php:35
+msgid "Shared with me"
+msgstr ""
+
+#: templates/v10/_template_main.php:45
+msgid "Group Files"
+msgstr ""
+
+#: templates/v10/_template_main.php:71
+msgid "Sort By"
+msgstr ""
+
+#: templates/v10/_template_main.php:72 templates/v10/_template_main.php:219
+msgid "Name"
+msgstr ""
+
+#: templates/v10/_template_main.php:73 templates/v10/_template_main.php:221
+msgid "Type"
+msgstr ""
+
+#: templates/v10/_template_main.php:78
+msgid "Ascending"
+msgstr ""
+
+#: templates/v10/_template_main.php:84
+msgid "Descending"
+msgstr ""
+
+#: templates/v10/_template_main.php:138
+msgid "Create Directory"
+msgstr ""
+
+#: templates/v10/_template_main.php:145
+msgid "Delete Current Dir"
+msgstr ""
+
+#: templates/v10/_template_main.php:153
+msgid "Create"
+msgstr ""
+
+#: templates/v10/_template_main.php:154 templates/v10/_template_main.php:355
+msgid "Cancel"
+msgstr ""
+
+#: templates/v10/_template_main.php:210
+msgid "This directory is empty..."
+msgstr ""
+
+#: templates/v10/_template_main.php:276
+msgid "Share File"
+msgstr ""
+
+#: templates/v10/_template_main.php:282
+msgid "File Name"
+msgstr ""
+
+#: templates/v10/_template_main.php:288
+msgid "File Key"
+msgstr ""
+
+#: templates/v10/_template_main.php:295
+msgid "Bucket"
+msgstr ""
+
+#: templates/v10/_template_main.php:310
+msgid "File ID"
+msgstr ""
+
+#: templates/v10/_template_main.php:317
+msgid "Post Date"
+msgstr ""
+
+#: templates/v10/_template_main.php:323
+msgid "Post Date (GMT)"
+msgstr ""
+
+#: templates/v10/_template_main.php:333 templates/v10/_template_main.php:336
+msgid "Delete File"
+msgstr ""
+
+#: templates/v10/_template_main.php:342
+msgid "Edit Title and Description"
+msgstr ""
+
+#: templates/v10/_template_main.php:354
+msgid "Save Changes"
+msgstr ""
+
+#: templates/v10/_template_main.php:366
+msgid "Meta Name"
+msgstr ""
+
+#: templates/v10/_template_main.php:393
+msgid "Email"
+msgstr ""
+
+#: templates/v10/_template_main.php:405
+msgid "Message"
+msgstr ""

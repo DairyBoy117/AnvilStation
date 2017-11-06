@@ -1,0 +1,4 @@
+.widget_latest_twitter_widget{ text-align: left; padding: 15px 0px 0px; list-style:none; }
+.latest-twitter-tweet{	font-style: italic;	padding: 15px;	background-color: #212528;	border: solid 1px #000;}.latest-twitter-tweet:nth-child(even){	border-top:0px;	border-bottom:0px;}.latest-twitter-tweet:nth-last-child(2){	border-bottom:1px solid black;}
+#latest-twitter-widget-icon, #latest-twitter-widget-pic{ float: left; border: 0px; margin-right: 5px; }
+.latest-twitter-tweet-time{ font: 9pt/12pt arial; color: #999999; margin-bottom: 10px; }#latest-twitter-follow-link{	padding: 10px 0px 0px 18px;}

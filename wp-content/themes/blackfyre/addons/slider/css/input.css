@@ -1,0 +1,897 @@
+/*--------------------------------------------------------------------------------------------
+*
+*	Global
+*
+*--------------------------------------------------------------------------------------------*/
+
+/* Image Replacement */
+.ir { display: block; text-indent: -999em; overflow: hidden; background-repeat: no-repeat; text-align: left; direction: ltr; font-size: 0; line-height: 0; }
+input.ir { border: 0 none; background: none; }
+
+
+/* Horizontal List */
+.hl { padding: 0; margin: 0; list-style: none; display: block; position: relative; }
+.hl > li { float: left; display: block; margin: 0; padding: 0; }
+.hl > li.right { float: right; }
+
+.clearfix:before, .clearfix:after { content: "\0020"; display: block; height: 0; visibility: hidden; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
+
+
+#icon-acf {
+	background: url(../images/sprite.png) 0 0 no-repeat;
+}
+
+.acf-loading {
+	background: url(../images/wpspin_light.gif) no-repeat scroll 50% 50% #EAEAEA;
+    border-radius: 30px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5) inset;
+    height: 16px;
+    margin: 10px auto;
+    padding: 6px;
+    width: 16px;
+}
+
+.acf-remove-item {
+	-webkit-transition: all 0.4s 0s ease-in-out;
+	-moz-transition: all 0.4s 0s ease-in-out;
+	-o-transition: all 0.4s 0s ease-in-out;
+	transition: all 0.4s 0s ease-in-out;
+
+	-webkit-transform: translate(25px, 0px);
+	-moz-transform: translate(25px, 0px);
+	-o-transform: translate(25px, 0px);
+	transform: translate(25px, 0px);
+
+	opacity: 0;
+}
+
+
+.acf-message .acf-button,
+.acf-alert .acf-button{
+	font-size: 15px;
+	padding: 8px 12px;
+	margin-left: 5px;
+}
+
+/* icon */
+[class^="acf-sprite"],
+[class*=" acf-sprite"] {
+	display: block;
+	width: 16px;
+	height: 16px;
+	float: left;
+	background: url(../images/sprite.png);
+	margin: 0;
+}
+
+
+/* Input append / prepend */
+.acf-input-prepend,
+.acf-input-append {
+	font-size: 12px;
+	line-height: 15px;
+	height: 15px;
+
+	padding: 5px 7px;
+
+	background: #F4F4F4;
+	border: #DFDFDF solid 1px;
+}
+
+.acf-input-prepend {
+	float: left;
+	border-right: 0;
+	border-radius: 3px 0 0 3px;
+}
+
+.acf-input-append {
+	float: right;
+	border-left: 0;
+	border-radius: 0 3px 3px 0;
+}
+
+.acf-input-wrap {
+	position: relative;
+	overflow: hidden;
+}
+
+.acf-input-wrap input {
+	height: 27px;
+	margin: 0;
+}
+
+input.acf-is-prepended {
+	border-radius: 0 3px 3px 0 !important;
+}
+
+input.acf-is-appended {
+	border-radius: 3px 0 0 3px !important;
+}
+
+input.acf-is-prepended.acf-is-appended {
+	border-radius: 0 !important;
+}
+
+
+
+
+
+/*--------------------------------------------------------------------------------------------
+*
+*	Buttons
+*
+*--------------------------------------------------------------------------------------------*/
+
+.acf-button {
+	position: relative;
+	display: inline-block;
+	border-radius: 3px;
+	height: 28px;
+	padding: 0 11px 1px;
+    cursor: pointer;
+
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing:    border-box;
+	box-sizing:         border-box;
+
+    color: #fff;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 26px;
+    text-align: center;
+	text-decoration: none;
+
+	background: #2EA2CC;
+
+	border: #0074A2 solid 1px;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.25) inset;
+}
+
+.acf-button:hover {
+	background-color: #298CBA;
+	color: #fff;
+}
+
+.acf-button:focus,
+.acf-button:active {
+	outline: none;
+	line-height: 28px;
+}
+
+.acf-button:active {
+	box-shadow: none;
+}
+
+.acf-button[disabled] {
+	background: #298CBA !important;
+    border-color: #1B607F !important;
+    box-shadow: none !important;
+    color: #94CDE7 !important;
+    cursor: default !important;
+}
+
+
+.acf-button.grey {
+	color: #333;
+	border-color: #BBBBBB;
+	background: #F9F9F9;
+}
+
+.acf-button.grey:hover {
+	border-color: #999;
+}
+
+
+/* sizes */
+.acf-button.large,
+.acf-button-big {
+	height: 32px;
+	line-height: 31px;
+	font-size: 14px;
+}
+
+
+/*--------------------------------------------------------------------------
+*
+*	ACF add / remove
+*
+*-------------------------------------------------------------------------*/
+
+.acf-button-add,
+.acf-button-remove,
+.acf-button-edit,
+.acf-button-delete {
+	background: url(../images/sprite.png) -16px -116px no-repeat #fff;
+    display: block;
+    height: 18px;
+    width: 18px;
+    border-radius: 9px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+.acf-button-edit,
+.acf-button-delete {
+	width: 22px;
+	height: 22px;
+	border-radius: 11px;
+}
+
+.acf-button-add:hover {
+	background-position: -16px -166px;
+}
+
+.acf-button-remove {
+	background-position: -66px -116px;
+}
+
+.acf-button-remove:hover {
+	background-position: -66px -166px;
+}
+
+.acf-button-edit {
+	background-position: -14px -214px;
+}
+
+.acf-button-edit:hover {
+	background-position: -14px -264px;
+}
+
+.acf-button-delete {
+	background-position: -64px -214px;
+}
+
+.acf-button-delete:hover {
+	background-position: -64px -264px;
+}
+
+
+/*--------------------------------------------------------------------------
+*
+*	Retina
+*
+*-------------------------------------------------------------------------*/
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+
+	#icon-acf,
+	.acf-button-add,
+	.acf-button-remove,
+	.acf-button-edit,
+	.acf-button-delete,
+	[class^="acf-sprite"],
+	[class*=" acf-sprite"] {
+		background-image: url(../images/sprite@2x.png);
+		background-size: 100px 600px;
+	}
+
+	.acf-loading {
+		background-image: url(../images/wpspin_light@2x.gif);
+		background-size: 16px 16px;
+	}
+
+}
+
+/*---------------------------------------------------------------------------------------------
+*
+*  Post Box
+*
+*---------------------------------------------------------------------------------------------*/
+
+.acf-hidden {
+	display: none !important;
+}
+
+.acf_postbox {
+	display: block;
+}
+
+.acf_postbox .inside,
+#poststuff .acf_postbox .inside {
+	margin: 0;
+	padding: 0;
+}
+
+.acf_postbox.no_box {
+	border: 0 none;
+	background: transparent;
+	box-shadow: none;
+}
+
+.acf_postbox.no_box > h3,
+.acf_postbox.no_box > .handlediv {
+	display: none;
+}
+
+.acf_postbox.no_box.closed .inside {
+	display: block;
+}
+
+.acf_postbox .widefat th,
+.acf_postbox .widefat td {
+	overflow: visible;
+}
+
+
+/*---------------------------------------------------------------------------------------------
+*
+*  Basic Field Styles
+*
+*---------------------------------------------------------------------------------------------*/
+
+.acf_postbox .field input[type="text"],
+.acf_postbox .field input[type="number"],
+.acf_postbox .field input[type="password"],
+.acf_postbox .field input[type="email"],
+.acf_postbox .field textarea{
+	width: 100%;
+	padding: 5px;
+	resize: none;
+	margin: 0;
+}
+
+.acf_postbox .field textarea {
+	resize: vertical;
+	min-height: 150px;
+}
+
+.acf_postbox .field select{
+	width: 100%;
+	padding: 2px;
+	resize: none;
+}
+
+.acf_postbox .field select optgroup {
+	padding: 5px;
+	background: #fff;
+}
+
+.acf_postbox .field select option {
+	padding: 3px;
+}
+
+.acf_postbox .field select optgroup option {
+	padding-left: 5px;
+}
+
+.acf_postbox .field select optgroup:nth-child(2n) {
+    background: #F9F9F9;
+}
+
+
+
+/*---------------------------------------------------------------------------------------------
+*
+*  Field: Image
+*
+*---------------------------------------------------------------------------------------------*/
+
+.acf-image-uploader {
+	position: relative;
+}
+
+.acf-image-uploader .has-image { display: none; float: left; position: relative; max-width: 100%; }
+.acf-image-uploader .no-image { display: block; float: left; position: relative; max-width: 100%; }
+
+.acf-image-uploader.active .has-image { display: block; }
+.acf-image-uploader.active .no-image { display: none; }
+
+
+.acf-image-uploader img {
+	box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+	width: 100%;
+	height: auto;
+	display: block;
+	min-width: 30px;
+	min-height: 30px;
+	background: #f1f1f1;
+	margin: 0 0 0 2px;
+}
+
+.acf-image-uploader .no-image p {
+	display: block;
+	margin: 0 !important;
+}
+
+.acf-image-uploader input.button {
+	width: auto;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+
+	.acf-image-uploader img {
+		width: auto;
+		max-width: 100%;
+	}
+
+}
+
+
+/*
+*  Hover
+*/
+
+.acf-image-uploader .hover {
+	position: absolute;
+	top: -11px;
+	right: -11px;
+
+	-webkit-transition: opacity 0.25s 0s ease-in-out, visibility 0s linear 0.25s;
+	-moz-transition: opacity 0.25s 0s ease-in-out, visibility 0s linear 0.25s;
+	-o-transition: opacity 0.25s 0s ease-in-out, visibility 0s linear 0.25s;
+	transition: opacity 0.25s 0s ease-in-out, visibility 0s linear 0.25s;
+
+	visibility: hidden;
+	opacity: 0;
+}
+
+.acf-image-uploader .has-image:hover .hover {
+	-webkit-transition-delay:0s;
+	-moz-transition-delay:0s;
+	-o-transition-delay:0s;
+	transition-delay:0s;
+
+	visibility: visible;
+	opacity: 1;
+}
+
+.acf-image-uploader .hover ul {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+.acf-image-uploader .hover ul li {
+	margin: 0 0 5px 0;
+}
+
+
+/*---------------------------------------------------------------------------------------------
+*
+*  Media Model
+*
+*---------------------------------------------------------------------------------------------*/
+
+.media-modal {
+
+}
+
+.media-modal .field {
+	padding: 0;
+}
+
+
+/* WP sets tables to act as divs. ACF uses tables, so these muct be reset */
+.media-modal .compat-attachment-fields td.field table {
+	display: table;
+}
+.media-modal .compat-attachment-fields td.field table tbody {
+	display: table-row-group;
+}
+.media-modal .compat-attachment-fields td.field table tr {
+	display: table-row;
+}
+.media-modal .compat-attachment-fields td.field table td,
+.media-modal .compat-attachment-fields td.field table th {
+	display: table-cell;
+}
+
+.compat-item table.widefat {
+	border: #DFDFDF solid 1px;
+}
+
+
+/* Expand / Collapse button */
+.media-modal .acf-expand-details {
+	float: right;
+	padding: 1px 10px;
+	margin-right: 6px;
+	height: 18px;
+	line-height: 18px;
+	color: #AAAAAA;
+	font-size: 12px;
+}
+
+.media-modal .acf-expand-details:hover {
+	color: #999;
+}
+
+.media-modal .acf-expand-details:focus,
+.media-modal .acf-expand-details:active {
+	outline: 0 none;
+}
+
+.media-modal .acf-expand-details span {
+	display: block;
+	float: left;
+}
+
+.media-modal .acf-expand-details .icon {
+	height: 15px;
+	width: 15px;
+	float: left;
+
+	background: url(../images/arrows.png) 0 -72px no-repeat;
+	border: #C7C7C7 solid 1px;
+
+	border-radius: 10px;
+	margin: 0 4px 0 0;
+}
+
+.media-modal .acf-expand-details:hover .icon {
+	border-color: #AAAAAA;
+}
+
+.media-modal.acf-expanded .acf-expand-details .icon {
+	background-position: 0 -108px;
+}
+
+.media-modal .acf-expand-details .is-open { display: none; }
+.media-modal .acf-expand-details .is-closed { display: block; }
+
+.media-modal.acf-expanded .acf-expand-details .is-open { display: block; }
+.media-modal.acf-expanded .acf-expand-details .is-closed { display: none; }
+
+
+/* Expand / Collapse views */
+.media-modal .media-toolbar,
+.media-modal .attachments,
+.media-modal .media-sidebar {
+	-webkit-transition: all 0.25s ease-out;  /* Safari 3.2+, Chrome */
+       -moz-transition: all 0.25s ease-out;  /* Firefox 4-15 */
+         -o-transition: all 0.25s ease-out;  /* Opera 10.5–12.00 */
+            transition: all 0.25s ease-out;  /* Firefox 16+, Opera 12.50+ */
+}
+
+.media-modal.acf-expanded .media-toolbar { right: 700px; }
+.media-modal.acf-expanded .attachments { right: 700px; }
+.media-modal.acf-expanded .media-sidebar { width: 667px; }
+
+
+/* Sidebar: Collapse */
+.media-modal .compat-item .label {
+	margin: 0;
+}
+
+.media-modal .media-sidebar .setting span,
+.media-modal .compat-item label span,
+.media-modal .media-sidebar .setting input,
+.media-modal .media-sidebar .setting textarea,
+.media-modal .compat-item .field {
+	min-height: 0;
+	margin: 5px 0 0;
+}
+
+.media-modal .media-sidebar .setting span,
+.media-modal .compat-item label span {
+	padding-top: 7px;
+}
+
+.media-modal .attachment-display-settings .setting span {
+	margin-top: 0;
+	margin-right: 3%;
+}
+
+
+/* Sidebar: Expand */
+.media-modal.acf-expanded .attachment-info .thumbnail {
+	width: 20%;
+	max-width: none;
+	max-height: 150px;
+	margin-right: 3%;
+	overflow: hidden;
+}
+
+.media-modal.acf-expanded .media-sidebar .setting span,
+.media-modal.acf-expanded .compat-item .label {
+	min-width: 20%;
+}
+
+.media-modal.acf-expanded .media-sidebar .setting input,
+.media-modal.acf-expanded .media-sidebar .setting textarea,
+.media-modal.acf-expanded .compat-item .field {
+	width: 77%;
+}
+
+
+/*---------------------------------------------------------------------------------------------
+*
+*  Media Model (Edit Mode)
+*
+*---------------------------------------------------------------------------------------------*/
+
+.media-modal.acf-media-modal {
+	left: 15%;
+	right: 15%;
+	top: 100px;
+	bottom: 100px;
+}
+
+/* Expand / Collapse views */
+.media-modal.acf-media-modal .media-toolbar,
+.media-modal.acf-media-modal .attachments,
+.media-modal.acf-media-modal .media-sidebar {
+	-webkit-transition: none;  /* Safari 3.2+, Chrome */
+       -moz-transition: none;  /* Firefox 4-15 */
+         -o-transition: none;  /* Opera 10.5–12.00 */
+            transition: none;  /* Firefox 16+, Opera 12.50+ */
+}
+
+.media-modal.acf-media-modal .media-frame-router,
+.media-modal.acf-media-modal .attachments,
+.media-modal.acf-media-modal .media-frame-content .media-toolbar {
+    display: none;
+}
+
+.media-modal.acf-media-modal .media-frame-content {
+    top: 56px;
+}
+
+.media-modal.acf-media-modal .media-frame-title {
+    border-bottom: 1px solid #DFDFDF;
+    box-shadow: 0 4px 4px -4px rgba(0, 0, 0, 0.1);
+}
+
+.media-modal.acf-media-modal .media-frame-content .media-sidebar {
+    width: auto;
+    left: 0px;
+}
+
+.media-modal.acf-media-modal .media-toolbar {
+    right: 0;
+}
+
+
+@media (max-width: 960px) {
+
+	.media-modal.acf-media-modal {
+		left: 10%;
+		right: 10%;
+	}
+
+}
+
+@media (max-width: 760px) {
+
+	.media-modal.acf-expanded .media-sidebar .setting span,
+	.media-modal.acf-expanded .compat-item .label {
+		min-width: 100%;
+		text-align: left;
+		min-height: 0;
+		padding: 0;
+	}
+
+	.media-modal.acf-expanded .compat-item .label br {
+		display: none;
+	}
+
+	.media-modal.acf-expanded .media-sidebar .setting input,
+	.media-modal.acf-expanded .media-sidebar .setting textarea,
+	.media-modal.acf-expanded .compat-item .field {
+		width: 100%;
+	}
+
+}
+
+
+/*---------------------------------------------------------------------------------------------
+*
+*  ACF Message Wrapper (used by image / file / gallery)
+*
+*---------------------------------------------------------------------------------------------*/
+
+.acf-message-wrapper {
+	margin: 10px 0;
+}
+
+.acf-message-wrapper .message {
+	margin: 0 !important;
+}
+
+
+/*---------------------------------------------------------------------------------------------
+*
+*  Field: File
+*
+*---------------------------------------------------------------------------------------------*/
+
+.acf-file-uploader {
+	position: relative;
+	line-height: 1.5em;
+}
+
+.acf-file-uploader .has-file {
+	display: none;
+	float: left;
+}
+
+.acf-file-uploader .no-file {
+	display: block;
+}
+
+.acf-file-uploader.active .has-file {
+	display: block;
+}
+
+.acf-file-uploader.active .no-file {
+	display: none;
+}
+
+.acf-file-uploader li {
+	position: relative;
+	margin: 0 10px 0 0;
+}
+
+.acf-file-uploader img {
+	min-height: 60px;
+	min-width: 46px;
+	box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+	display: block;
+	background: #f1f1f1;
+}
+
+.acf-file-uploader input.button {
+	width: auto;
+}
+
+.acf-file-uploader a {
+	text-decoration: none;
+}
+
+.acf-file-uploader p {
+	margin: 0 0 4px;
+}
+
+
+/*
+*  Hover
+*/
+
+.acf-file-uploader .hover {
+	position: absolute;
+	top: -10px;
+	right: -10px;
+
+	-webkit-transition: opacity 0.25s 0s ease-in-out, visibility 0s linear 0.25s;
+	-moz-transition: opacity 0.25s 0s ease-in-out, visibility 0s linear 0.25s;
+	-o-transition: opacity 0.25s 0s ease-in-out, visibility 0s linear 0.25s;
+	transition: opacity 0.25s 0s ease-in-out, visibility 0s linear 0.25s;
+
+	visibility: hidden;
+	opacity: 0;
+}
+
+.acf-file-uploader .has-file:hover .hover {
+	-webkit-transition-delay:0s;
+	-moz-transition-delay:0s;
+	-o-transition-delay:0s;
+	transition-delay:0s;
+
+	visibility: visible;
+	opacity: 1;
+}
+
+.acf-file-uploader .hover ul {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+.acf-file-uploader .hover ul li {
+	margin: 0 0 3px 0;
+}
+
+
+
+
+
+/*---------------------------------------------------------------------------------------------
+*
+*  Input Table
+*
+*---------------------------------------------------------------------------------------------*/
+
+table.acf-input-table {
+	border-radius: 0 0 0 0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+table.acf-input-table > thead { }
+table.acf-input-table > thead > tr > th {
+	padding: 8px;
+	position: relative;
+
+	vertical-align: top;
+	border-right: 1px solid #e1e1e1;
+}
+
+table.acf-input-table > tbody {}
+
+table.acf-input-table > tbody > tr {
+	background: #fff;
+}
+
+table.acf-input-table > tbody > tr > td {
+	background: transparent;
+	border: 0 none;
+
+    border-top: 1px solid #ededed;
+    border-right: 1px solid #ededed;
+
+    padding: 8px;
+    position: relative;
+}
+
+table.acf-input-table > tbody > tr > td {
+	background: transparent;
+	border: 0 none;
+
+    border-top: 1px solid #ededed;
+    border-right: 1px solid #ededed;
+
+    padding: 8px;
+    position: relative;
+}
+
+table.acf-input-table.row_layout > tbody > tr > td {
+	border-top-color: #DFDFDF;
+}
+
+table.acf-input-table > tbody > tr:first-child > td {
+	border-top: 0 none;
+}
+
+table.acf-input-table > tbody > tr > td:last-child {
+	border-right: 0 none;
+}
+
+td.acf_input-wrap {
+	padding: 0 !important;
+}
+
+.sub-field-instructions {
+	color: #999999;
+    display: block;
+    font-family: sans-serif;
+    font-size: 12px;
+    text-shadow: 0 1px 0 #FFFFFF;
+
+    font-weight: normal;
+}
+
+
+
+
+
+
+/*--------------------------------------------------------------------------
+*
+*	Retina
+*
+*-------------------------------------------------------------------------*/
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+
+	.acf_flexible_content .layout .fc-delete-layout,
+	.acf-popup .bit,
+	.acf-gallery .toolbar .view-grid,
+	.acf-gallery .toolbar .view-list {
+		background-image: url(../images/sprite@2x.png);
+		background-size: 100px 600px;
+	}
+
+
+}

@@ -1,0 +1,21 @@
+<div class="row">
+	<div class="col-md-2 col-sm-4 col-xs-6" ng-repeat="(index, fileData) in displayFiles">
+		<div class="thumb">
+			
+			<a ng-if="fileData.node_type == 'dir'" href="#sublist/{{$index}}" class="thumbnail">
+				<img ng-src="{{folder_icon}}" alt="folder icon">
+			</a>
+			
+			<a ng-if="fileData.node_type == 'file'" href="#details/{{$index}}" class="thumbnail">
+
+				<img ng-if="fileData.extension == 'png' || fileData.extension == 'jpg' || fileData.extension == 'jpeg' || fileData.extension == 'gif'" ng-src="{{fileData.thumb_src}}" alt="folder icon">
+
+				<span ng-if="fileData.extension != 'png' && fileData.extension != 'jpg' && fileData.extension != 'jpeg' && fileData.extension != 'gif'" class="file-type-icon" filetype="{{fileData.extension}}">
+					<span class="fileCorner"></span>
+				</span>
+			</a>
+		</div>
+		<h5 class="text-center" ng-if="fileData.node_type == 'dir'"><b>{{fileData.post_title}}</b></h5>
+		<h5 class="text-center" ng-if="fileData.node_type == 'file'">{{fileData.filename | limitTo:10}}</h5>
+	</div>
+</div>

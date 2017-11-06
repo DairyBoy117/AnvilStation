@@ -1,0 +1,20 @@
+/*
+Theme Name: BlackFyre
+Theme URI: http://www.skywarriorthemes.com/blackfyre/
+Author: Skywarrior themes
+Author URI: http://www.skywarriorthemes.com/
+Description: Blackfyre gives you the power to create massive gaming communities. Users can create clans and challenge each others, keeping track of the matches, share content and much more!
+Version: 2.2
+License: Skywarrior Themes. All rights reserved.
+License URI: http://themeforest.net/user/Skywarrior
+Tags: one-column, two-columns, right-sidebar, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready
+Text Domain: blackfyre
+*/
+
+
+@import url('css/bootstrap.css');
+@import url('css/main.css');
+@import url('css/bbpress.css');
+@import url('css/woocommerce.css');
+@import url('css/buddypress.css');
+@import url('css/clanwars.css');

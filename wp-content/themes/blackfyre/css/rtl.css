@@ -1,0 +1,242 @@
+body{
+
+	direction: rtl;
+
+	unicode-bidi: embed;
+
+}
+
+
+
+.bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto{
+
+	right: 17%;
+
+}
+
+.next_slide_text{
+
+	left:0px;
+
+	right: initial !important;
+
+}
+
+
+
+.blog-rating .overall-score .rating {
+
+  text-align: left !important;
+
+}
+
+.widget-title i {
+
+  margin-left: 3px !important;
+
+}
+
+div.rating:after {
+
+	left: 0 !important;
+
+    text-align: left !important;
+
+}
+
+
+
+.heart-love-count .fa {
+
+  margin-left: 5px !important;
+
+}
+
+
+
+.slider_com_wrap a {
+
+	margin-right: 10px;
+
+}
+
+
+
+.dropdown-menu li>a {
+
+	text-align:right!important;
+
+}
+
+
+
+.bp-single-group .item {
+
+	text-align:left;
+
+}
+
+
+
+.bp-single-group .item .item-title {
+
+	width:100%;
+
+}
+
+
+
+.next_slide_text .fa-bolt {
+
+	margin-left: 5px;
+
+	margin-right: 0;
+
+}
+
+.ticker-title{
+
+	min-width:140px;
+
+}
+
+.profile-clans .pclan-img{
+
+	    float: right;
+
+}
+
+#buddypress div.item-list-tabs ul li.current a, #buddypress div.item-list-tabs ul li.selected a{
+
+	background:transparent !important;
+
+}
+
+/* Author Daniel Neshkoski Css-Changes*/
+.gamesb li strong{text-indent:10px;}
+/*  Change icons only for RTL */
+.carousel-control .icon-next:before {
+    content:'\2039';
+}
+.carousel-control .icon-prev:before {
+    content:'\203a';
+}
+/* Search button and fields fix*/
+#buddypress div.item-list-tabs{
+	float:left;
+}
+#main_wrapper .button-medium, .button-small, .button-big, button[type="submit"], input[type="submit"] {
+    background-color: #25c2f5!important;
+    color:#fff!important;
+}
+.footer_widget .clanwar-list .playing, .footer_widget .clanwar-list .scores, .footer_widget .clanwar-list .upcoming,
+.widget .clanwar-list .playing, .widget .clanwar-list .scores, .widget .clanwar-list .upcoming{
+	left:0;right:auto!important;
+}
+
+#buddypress .comment-reply-link, #buddypress .generic-button a, #buddypress .standard-form button, #buddypress a.button, #buddypress input[type=button], #buddypress input[type=reset], #buddypress input[type=submit], #buddypress ul.button-nav li a, a.bp-title-button{
+	border:1px solid #000!important;
+	box-shadow:none!important;
+}
+
+.wp-editor-container textarea.wp-editor-area, input[type="file"], input[type="url"], input[type="password"], input[type="password"]:active, input[type="password"]:focus, input[type="password"]:hover, input[type="text"], input[type="text"]:active, input[type="text"]:focus, input[type="text"]:hover, select, select:active, select:focus, select:hover, textarea, textarea:active, textarea:focus, textarea:hover{
+	/*test */
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	background-color: #181b1e!important;
+	-webkit-box-shadow: 0 1px rgba(255, 255, 255, .1), inset 0 1px 2px rgba(0, 0, 0, .6)!important;
+	-moz-box-shadow: 0 1px rgba(255, 255, 255, .1), inset 0 1px 2px rgba(0, 0, 0, .6)!important;
+	box-shadow: 0 1px rgba(255, 255, 255, .1), inset 0 1px 2px rgba(0, 0, 0, .6)!important;
+	border: 1px solid rgba(0, 0, 0, .9)!important;
+	padding: 10px;
+	margin-bottom: 10px;
+	width: 100%;
+	font-size: 90%!important;
+}
+
+/* Matches on right Side */
+.title_wrapper .col-lg-6{
+	float:right;
+}
+.title_wrapper .col-lg-6 h1{
+	text-align:right;
+	float:right;
+}
+.title_wrapper .breadcrumbs{
+	text-align:left;
+}
+.footer_widget.clanwarlist-page .clanwar-list .playing, .footer_widget.clanwarlist-page .clanwar-list .scores, .footer_widget.clanwarlist-page .clanwar-list .upcoming, .widget.clanwarlist-page .clanwar-list .playing, .widget.clanwarlist-page .clanwar-list .scores, .widget.clanwarlist-page .clanwar-list .upcoming{
+	right:auto;
+	left:10px;
+}
+.match-wrap{
+	float:right;
+}
+.footer_widget .clanwar-list .date, .widget .clanwar-list .date{
+	float:right;
+}
+.footer_widget.clanwarlist-page .clanwar-list .date, .widget.clanwarlist-page .clanwar-list .date{
+	margin-right:10px;
+}
+
+/* Captcha Fix*/
+.capch label{width:auto;}
+
+/* Score Fix Stars */
+.score{margin-top:-4px;float:left;padding-left:8px;}
+
+/* Blocks RTL*/
+#bbpress-forums .bbp-forums-list{
+	padding-left:15px;
+	border-left:1px solid rgba(221, 221, 221, 0.18);
+	border-right:0px;
+}
+#bbpress-forums div.bbp-forum-content, #bbpress-forums div.bbp-reply-content, #bbpress-forums div.bbp-topic-content{
+	text-align:right;
+}
+li.bbp-forum-info i.fa-comments-o, li.bbp-topic-title i.fa-comment{
+    padding: 8px 13px 8px 8px;
+    float: right;
+}
+li.bbp-forum-info, li.bbp-topic-title{
+    float: right;
+    text-align: right;
+}
+#bbpress-forums .bbp-forums-list{
+	padding-right:0px;
+    margin-right: -5px;
+}
+
+/* TOp CLANS RTL */
+#buddypress #members-list li div.item-title, #buddypress #members-list-fn li div.item-title{
+    text-align: right;
+    float: right;
+    padding-right: 10px;
+}
+#buddypress ul.item-list li img.avatar{
+	float:right;
+}
+
+/* Search in it */
+#searchform input{
+	padding: 15px 24px 15px 45px;
+    background-position: center right 4px;
+}
+/* Images gap */
+body .gamesb li img{
+	margin:4px auto;
+}
+
+/*Button Friends */
+#main_wrapper .friendship-button a{
+/*background-image: -webkit-linear-gradient(bottom, #096aa1, #26c3f6)!important;
+    background-image: -moz-linear-gradient(bottom, #096aa1, #26c3f6)!important;
+    background-image: -o-linear-gradient(bottom, #096aa1, #26c3f6)!important;
+    background-image: linear-gradient(to top, #096aa1, #26c3f6)!important;*/
+	padding: 10px 13px;
+    color:#fff;
+}
+
+
+

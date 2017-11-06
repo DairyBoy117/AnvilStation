@@ -1,0 +1,617 @@
+.footer_widget .clanwar-list .icon,
+.widget .clanwar-list .icon {
+    width: auto;
+    height: auto
+}
+
+.footer_widget .clanwar-list .home-team,
+.widget .clanwar-list .home-team {
+    color: #777
+}
+
+.footer_widget .clanwar-list .home-team,
+.footer_widget .clanwar-list .opponent-team,
+.footer_widget .clanwar-list .vs,
+.widget .clanwar-list .home-team,
+.widget .clanwar-list .opponent-team,
+.widget .clanwar-list .vs {
+    display: inline-block;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-weight: 700;
+    transition: all .35s ease-in-out;
+    -moz-transition: all .35s ease-in-out;
+    -webkit-transition: all .35s ease-in-out;
+    -o-transition: all .35s ease-in-out
+}
+
+.wrap:hover .opponent-team {
+    color: #ccc
+}
+
+.footer_widget .clanwar-list .vs,
+.widget .clanwar-list .vs {
+    color: #ccc;
+    margin: 0 8px
+}
+
+.footer_widget .clanwar-list,
+.widget .clanwar-list {
+    margin: 0;
+    list-style: none;
+    padding-left:0px;
+}
+
+.footer_widget.clanwarlist-page .clanwar-list,
+.widget.clanwarlist-page .clanwar-list {
+    background: 0 0;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-shadow: none
+}
+
+.footer_widget.clanwarlist-page ul.clanwar-list li.clanwar-item,
+.widget.clanwarlist-page ul.clanwar-list li.clanwar-item {
+    width: 49.5%;
+    display: inline-block;
+    border: 1px solid #000;
+    margin-left: .5%
+}
+
+.footer_widget.clanwarlist-page ul.clanwar-list li.clanwar-item:nth-child(even){
+    margin-left: 0
+}
+
+.widget .clanwar-list .widgettitle {
+    margin: 12px 12px 0
+}
+
+.footer_widget ul.clanwar-list li.clanwar-item,
+.widget ul.clanwar-list li.clanwar-item {
+    padding: 0 5px;
+    position: relative;
+    zoom: 1
+}
+
+.no-js .footer_widget .clanwar-list .tabs,
+.no-js .widget .clanwar-list .tabs {
+    display: none
+}
+
+.footer_widget .clanwar-list .tabs,
+.widget .clanwar-list .tabs,
+.widget-area .widget .tabs {
+    margin: 0;
+    padding: 0 3px;
+    zoom: 1;
+    box-shadow: none;
+    border: 0
+}
+
+.sidebar-content-block ul.container .tabs li {
+    padding: 0 2px;
+    margin: 3px 3px 3px 0
+}
+
+.footer_widget .clanwar-list .tabs li,
+.widget .clanwar-list .tabs li {
+    display: inline-block;
+    border: none;
+    padding: 0;
+    margin-right: 3px
+}
+
+.footer_widget .clanwar-list>li:first-child,
+.widget .clanwar-list>li:first-child {
+    padding: 10px 10px 0;
+    margin: 0;
+    border-bottom-style: solid;
+    border-bottom-width: 2px
+}
+
+.footer_widget .clanwar-list .tabs li.selected,
+.footer_widget .clanwar-list .tabs li:hover,
+.widget .clanwar-list .tabs li.selected,
+.widget .clanwar-list .tabs li:hover {
+    background: 0 0
+}
+
+.footer_widget .clanwar-list .tabs li a,
+.widget .clanwar-list .tabs li a {
+    background: #1a1c20;
+    color: #999;
+    text-align: center;
+    letter-spacing: .5px;
+    margin-bottom: 0;
+    padding: 10px;
+    font-size: 10px;
+    border: 1px solid #000;
+    height: auto;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: block;
+    border-bottom: 0
+}
+
+.footer_widget .clanwar-list .tabs li.selected a,
+.footer_widget .clanwar-list .tabs li:hover a,
+.widget .clanwar-list .tabs li.selected a,
+.widget .clanwar-list .tabs li:hover a {
+    border-bottom: 0!important;
+    box-shadow: 0!important
+}
+
+.footer_widget ul.clanwar-list li.clanwar-item .wrap,
+.widget ul.clanwar-list li.clanwar-item .wrap {
+    margin: 0;
+    padding: 10px;
+    position: relative
+}
+
+.footer_widget.clanwarlist-page ul.clanwar-list li.clanwar-item .wrap,
+.widget.clanwarlist-page ul.clanwar-list li.clanwar-item .wrap {
+    padding: 20px 15px 15px
+}
+
+.footer_widget ul.clanwar-list li.clanwar-item .wrap a,
+.widget ul.clanwar-list li.clanwar-item .wrap a {
+    display: block
+}
+
+.footer_widget ul.clanwar-list li.clanwar-item .icon,
+.widget ul.clanwar-list li.clanwar-item .icon {
+    position: absolute;
+    top: 5px
+}
+
+.clanwar-list .scores,
+.clanwar-list .upcoming,
+.footer_widget .clanwar-list .playing,
+.footer_widget .clanwar-list .tabs li.selected a,
+.footer_widget .clanwar-list .tabs li:hover a,
+.widget .clanwar-list .playing,
+.widget .clanwar-list .tabs li.selected a,
+.widget .clanwar-list .tabs li:hover a,
+.wp-clanwars-list .scores.loose,
+.wp-clanwars-list .scores.win,
+.wp-clanwars-list .upcoming,
+.wp-clanwars-page .scores.loose,
+.wp-clanwars-page .scores.win {
+    text-align: center;
+    letter-spacing: .5px;
+    margin-bottom: 0;
+    padding: 10px;
+    font-size: 10px;
+    border: 1px solid #000;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    height: auto;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+    display: block
+}
+
+.footer_widget .clanwar-list .playing,
+.footer_widget .clanwar-list .scores,
+.footer_widget .clanwar-list .upcoming,
+.widget .clanwar-list .playing,
+.widget .clanwar-list .scores,
+.widget .clanwar-list .upcoming {
+    position: absolute;
+    right: 0;
+    top: 15px;
+    float: right;
+    color: #fff
+}
+
+.footer_widget.clanwarlist-page .clanwar-list .playing,
+.footer_widget.clanwarlist-page .clanwar-list .scores,
+.footer_widget.clanwarlist-page .clanwar-list .upcoming,
+.widget.clanwarlist-page .clanwar-list .playing,
+.widget.clanwarlist-page .clanwar-list .scores,
+.widget.clanwarlist-page .clanwar-list .upcoming {
+    right: 10px;
+    top: 30%
+}
+
+.footer_widget .clanwar-list .upcoming,
+.widget .clanwar-list .upcoming {
+    color: #fff;
+    background-color: #7a4a77;
+    letter-spacing: 0
+}
+
+@-webkit-keyframes pulse {
+    0% {
+        background-color: #7a4a77
+    }
+    50% {
+        background-color: #6492ac
+    }
+    100% {
+        background-color: #7a4a77
+    }
+}
+
+.footer_widget .clanwar-list .playing,
+.widget .clanwar-list .playing {
+    color: #fff;
+    background-color: #6492ac;
+    letter-spacing: 0;
+    -webkit-animation-name: pulse;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out
+}
+
+.footer_widget .clanwar-list .date,
+.widget .clanwar-list .date {
+    font-size: 10px;
+    color: #999;
+    float: left;
+    width: 70%;
+    margin-top: 5px
+}
+
+.footer_widget.clanwarlist-page .clanwar-list .date,
+.widget.clanwarlist-page .clanwar-list .date {
+    width: auto;
+    margin-left: 10px
+}
+
+.footer_widget.clanwarlist-page .clanwar-list .date strong,
+.widget.clanwarlist-page .clanwar-list .date strong {
+    font-size: 12px;
+    display: block;
+    text-transform: uppercase;
+    font-family: Roboto, Arial;
+    font-weight: 700;
+    margin-bottom: 5px;
+    margin-top: 3px
+}
+
+.widget .clanwar-list .r-opponent-team {
+    color: #333
+}
+
+.clanwar-list .scores.win,
+.wp-clanwars-list .scores.win {
+    color: #fff;
+    background-color: #567632;
+    background-image: -webkit-linear-gradient(bottom, #25ba2f, #28db33)!important;
+    background-image: -moz-linear-gradient(bottom, #25ba2f, #28db33)!important;
+    background-image: -o-linear-gradient(bottom, #25ba2f, #28db33)!important;
+    background-image: linear-gradient(to top, #25ba2f, #28db33)!important;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .3), inset 0 1px 1px 1px #35f242!important;
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .3), inset 0 1px 1px 1px #35f242!important;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .3), inset 0 1px 1px 1px #35f242!important
+}
+
+.widget .clanwar-list .scores.draw {
+    color: #fff;
+    background-color: #c87800
+}
+
+.clanwar-list .scores.loose,
+.widget .clanwar-list .scores.loose,
+.wp-clanwars-list .scores.loose {
+    color: #fff;
+    background-image: -webkit-linear-gradient(bottom, #9c1a1a, #db2c2c)!important;
+    background-image: -moz-linear-gradient(bottom, #9c1a1a, #db2c2c)!important;
+    background-image: -o-linear-gradient(bottom, #9c1a1a, #db2c2c)!important;
+    background-image: linear-gradient(to top, #9c1a1a, #db2c2c)!important;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .3), inset 0 1px 1px 1px #f23535!important;
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .3), inset 0 1px 1px 1px #f23535!important;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .3), inset 0 1px 1px 1px #f23535!important
+}
+
+.widget .clanwar-list li.clanwar-item a:hover {
+    border-bottom: 0
+}
+
+.results-main-bg {
+    padding: 40px;
+    background-image: url(../img/stripe.png);
+    background-repeat: repeat;
+    background-position: left center;
+    margin-bottom: 40px
+}
+
+.results-main {
+    width: 100%;
+    height: 70px;
+    position: relative
+}
+
+.r-home-team,
+.r-home-team-score,
+.r-opponent-team,
+.r-opponent-team-score {
+    position: absolute;
+    font-family: "Open Sans";
+    font-weight: 700
+}
+
+.r-home-team {
+    left: 30px;
+    top: 26px;
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase
+}
+
+.r-opponent-team {
+    right: 30px;
+    top: 26px;
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase
+}
+
+.r-home-team-score {
+    left: 25%
+}
+
+.r-opponent-team-score {
+    right: 25%
+}
+
+.r-home-team-score,
+.r-opponent-team-score {
+    padding: 9px 15px;
+    font-size: 18px;
+    color: #fff;
+    top: 16px;
+    border-radius: 5px
+}
+
+.r-home-team-score.victory,
+.r-opponent-team-score.victory {
+    color: #33f94a
+}
+
+.r-home-team.lose,
+.r-opponent-team.lose {
+    opacity: .5;
+    text-decoration: line-through
+}
+
+.versus {
+    width: 50px;
+    margin: 0 auto;
+    font-size: 14px;
+    font-weight: 700;
+    color: #ccc;
+    position: relative;
+    top: 26px;
+    opacity: .5
+}
+
+.match-map.span3 {
+    float: left;
+    width: 21.4%;
+    margin-bottom: 40px
+}
+
+.match-map .map-image {
+    margin: 0 auto;
+    position: relative
+}
+
+.match-wrap {
+    float: left;
+    width: 70%;
+    line-height: 26px;
+    margin-bottom: 2px
+}
+
+.widget.clanwarlist-page .match-wrap {
+    width: auto
+}
+.clanwarlist-page .clanwar-list ul{
+	background:transparent;
+}
+.clan1img {
+    float: none;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #000;
+    transition: all .35s ease-in-out;
+    -moz-transition: all .35s ease-in-out;
+    -webkit-transition: all .35s ease-in-out;
+    -o-transition: all .35s ease-in-out
+}
+
+.match-map .map-image img {
+    border-width: 4px;
+    border-style: solid;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .3);
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .3);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .3);
+    width: 147px!important;
+    height: auto!important
+}
+
+.match-map .map-score {
+    font-size: 10px;
+    font-weight: 700;
+    font-family: "Open Sans";
+    width: 25px;
+    padding: 5px 10px;
+    margin: 10px auto;
+    color: #fff;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, .15);
+    text-align: center
+}
+
+.map-title {
+    position: absolute;
+    bottom: 4px;
+    width: 147px;
+    font-size: 12px;
+    color: #fff;
+    text-shadow: 0 0 1px #000;
+    text-align: center;
+    background: rgba(0, 0, 0, .5);
+    left: 4px
+}
+
+.match-page .match-description {
+    padding: 15px 25px 25px
+}
+
+.match-page ul.match-props li {
+    display: inline-block;
+    margin-right: 25px!important
+}
+
+.match-page ul.match-props {
+    margin-bottom: 15px!important
+}
+
+.matchimages * {
+    float: left
+}
+
+.matchimages {
+    margin-right: 10px;
+    float: left
+}
+
+.matchimages .matchpage-versus {
+    margin-top: 16px
+}
+
+.matchimages img {
+    border-style: solid;
+    border-width: 2px;
+    margin-right: 5px
+}
+
+.matchimages img.clan2 {
+    margin-left: 5px
+}
+
+.nextmatch_widget h3 {
+    float: none;
+    text-align: center;
+    border-radius: 0
+}
+
+.nextmatch_widget {
+    padding: 0
+}
+
+.nextmatch_widget .wcontainer {
+    padding: 0;
+    background: 0 0
+}
+
+.nextmatch_wrap {
+    padding: 30px 15px 25px;
+    background: url(../img/vs.jpg) top center no-repeat;
+    background-size:cover;
+}
+
+.nextmatch_wrap img {
+    width: 100%;
+    border-width: 1px!important;
+    border-style: solid!important;
+    border-color: #000;
+    float: left;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out
+}
+
+.nextmatch_wrap .clan12w {
+    float: left;
+    width: 48%;
+    margin: 0 0 0 4%;
+    padding: 5px;
+    border: 1px solid #000
+}
+
+.nextmatch_wrap .clan12w:first-child {
+    margin: 0
+}
+
+.nm-clans {
+    position: relative;
+    margin-top: 20px;
+    border: 1px solid #000
+}
+
+.nm-clans span {
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out
+}
+
+.nm-clans .versus {
+    width: 100%;
+    position: absolute;
+    text-align: center
+}
+
+.nm-clans .r-home-team,
+.nm-clans .r-opponent-team {
+    position: relative;
+    top: auto
+}
+
+.nm-clans .r-home-team {
+    float: left;
+    height: 75px;
+    width: 75px;
+    left: auto;
+    margin-left: 30px
+}
+
+footer .nm-clans .r-home-team {
+    margin-left: 15px
+}
+
+footer .nm-clans .r-opponent-team {
+    margin-right: 15px
+}
+
+.nm-clans .r-home-team span,
+.nm-clans .r-opponent-team span {
+    height: 75px;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 14px;
+    text-align: center;
+    width: 75px
+}
+
+.nm-clans .r-opponent-team {
+    float: right;
+    height: 75px;
+    width: 85px;
+    left: auto;
+    margin-right: 30px;
+    right: auto
+}
+
+.nm-date {
+    text-align: center;
+    margin: 25px 0 0;
+    color: #999;
+    font-weight: 700;
+    text-transform: uppercase
+}
+
+.nm-date span {
+    font-size: 12px;
+    text-transform: uppercase;
+    display: inline
+}

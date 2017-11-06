@@ -1,0 +1,58 @@
+[
+  {
+    "title": "Battlefield 4",
+    "abbr": "BF4",
+    "package": "bf4.json.gz",
+    "icon": "bf4.jpg",
+	"g_banner_file": "bf4b.jpg"
+  },
+  {
+    "title": "Call of Duty",
+    "abbr": "cod",
+    "package": "cod.json.gz",
+    "icon": "cod.jpg",
+	"g_banner_file": "codb.jpg"
+  },
+ {
+    "title": "Counter Strike",
+    "abbr": "cs",
+    "package": "cs.json.gz",
+    "icon": "cs.jpg",
+	"g_banner_file": "csb.jpg"
+  },
+  {
+    "title": "Dota 2",
+    "abbr": "dota2",
+    "package": "dota2.json.gz",
+    "icon": "dota.jpg",
+	"g_banner_file": "dotab.jpg"
+  },
+  {
+    "title": "Fifa 2015",
+    "abbr": "fifa15",
+    "package": "fifa15.json.gz",
+    "icon": "fifa.jpg",
+	"g_banner_file": "fifab.jpg"
+  },
+  {
+    "title": "League of Legends",
+    "abbr": "lol",
+    "package": "lol.json.gz",
+    "icon": "lol.jpg",
+	"g_banner_file": "lolb.jpg"
+  },
+  {
+    "title": "StarCraft II",
+    "abbr": "sc2",
+    "package": "sc2.json.gz",
+    "icon": "sc2.jpg",
+	"g_banner_file": "sc2b.jpg"
+  },
+  {
+    "title": "Smite",
+    "abbr": "smite",
+    "package": "smite.json.gz",
+    "icon": "smite.jpg",
+	"g_banner_file": "smiteb.jpg"
+  }
+]

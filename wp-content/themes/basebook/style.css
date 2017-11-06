@@ -1,0 +1,47 @@
+/*
+ Theme Name:   Basebook
+ Description:  Blackfyre child theme
+ Author:       Austin Verburg
+ Author URI:   http://dairyboycomics.com/
+ Template:     blackfyre
+ Version:      1.0.0
+*/
+
+@import url("../blackfyre/style.css");
+
+body .registration-login .page.normal-page {
+    background: url("img/activated.jpg") bottom center repeat-y;
+    background-size: cover;
+}
+
+.sub-title {
+
+}
+
+.logo h1 {
+	font-size: 60px;
+}
+
+.logo h2 {
+	margin: 0;
+}
+
+.logo img {
+	padding: 10px;
+}
+
+ul.bbp-threaded-replies {
+	margin-left: 50px !important;
+}
+
+@media screen and (max-width: 991px) {
+	.logo img {
+		max-width: 30%;
+		display: block;
+		margin: 0 auto;
+	}
+
+	.logo h1, .logo h2 {
+		text-align: center
+	}
+}

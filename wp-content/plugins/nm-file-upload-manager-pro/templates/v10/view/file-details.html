@@ -1,0 +1,33 @@
+<h2>{{theFile.post_title}}</h2>
+<pre>{{theFile | json }}</pre>
+<div class="row">
+	<div class="col-sm-3">
+		<div class="thumbnail">
+			<img ng-src="{{theFile.thumb_src}}" alt="Thumbnail">
+		</div>
+	</div>
+	<div class="col-sm-9">
+		<table class="table table-striped">
+			<tr ng-show="theFile.file_location=='local'">
+				<td>File Namess</td>
+				<td>{{theFile.filename}}</td>
+			</tr>
+			<tr>
+				<td>File Size</td>
+				<td>{{theFile.filesize}}</td>
+			</tr>
+			<tr>
+				<td>File ID</td>
+				<td>{{theFile.id}}</td>
+			</tr>
+			<tr>
+				<td>Post Date</td>
+				<td>{{theFile.post_date}}</td>
+			</tr>
+			<tr>
+				<td>Post Date (GMT)</td>
+				<td>{{theFile.post_date_gmt}}</td>
+			</tr>
+		</table>
+	</div>
+</div>
