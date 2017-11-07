@@ -18,6 +18,10 @@ body .registration-login .page.normal-page {
 
 }
 
+
+/*----- HEADER -----*/
+
+
 .logo h1 {
 	font-size: 60px;
 }
@@ -30,9 +34,20 @@ body .registration-login .page.normal-page {
 	padding: 10px;
 }
 
+.logo .site-name {
+	padding: 0 20px 25px;
+}
+
+
+
+
 ul.bbp-threaded-replies {
 	margin-left: 50px !important;
 }
+
+
+
+/*----- RESPONSIVE -----*/
 
 @media screen and (max-width: 991px) {
 	.logo img {
