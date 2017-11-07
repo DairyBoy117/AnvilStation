@@ -296,7 +296,7 @@ if(is_plugin_active('buddypress/bp-loader.php') && function_exists( 'bp_current_
 	            </div>
 
 	            <div class="landing-page">
-	            	<img src="<?php echo get_site_url(); ?>/img/Xbox-Group-Shot.jpg" alt="logo" class="group-photo" />
+	            	<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/xbox-group-shot.jpg" alt="logo" class="group-photo" />
 	            	<p>Image © Microsoft Corporation</p>
 	            </div>
 
