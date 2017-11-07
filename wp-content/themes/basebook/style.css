@@ -66,13 +66,17 @@ a.landing-page {
 	padding: 20px 0 0;
 }
 
-.landing-page p {
+.landing-page p.img-credit {
 	text-align: right;
 	margin: 0;
 }
 
 .copyright.landing-page {
 	margin-top: 5px;
+}
+
+.copyright.landing-page p {
+	margin: 20px;
 }
 
 

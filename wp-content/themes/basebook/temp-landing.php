@@ -297,7 +297,7 @@ if(is_plugin_active('buddypress/bp-loader.php') && function_exists( 'bp_current_
 
 	            <div class="landing-page">
 	            	<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/xbox-group-shot.jpg" alt="logo" class="group-photo" />
-	            	<p>Image © Microsoft Corporation</p>
+	            	<p class="img-credit">Image © Microsoft Corporation</p>
 	            </div>
 
             </div>
@@ -311,7 +311,7 @@ if(is_plugin_active('buddypress/bp-loader.php') && function_exists( 'bp_current_
  <?php if ( of_get_option('fullwidth') ) { ?> </div> <?php } ?> <!-- /container -->
 </div>
 <!-- /.container -->
-<div class="copyright container landing-page<?php if ( of_get_option('fullwidth') ) {  }else{ ?>span12<?php } ?>">
+<div class="copyright container landing-page <?php if ( of_get_option('fullwidth') ) {  }else{ ?>span12<?php } ?>">
         <?php if ( of_get_option('fullwidth') ) { ?><div class="container"><?php } ?>
             <p>© <?php echo date("Y"); ?>&nbsp;<?php if(of_get_option('copyright')!=""){ echo of_get_option('copyright');} ?>
                 &nbsp;
