@@ -18,6 +18,10 @@ body .registration-login .page.normal-page {
 
 }
 
+
+/*----- HEADER -----*/
+
+
 .logo h1 {
 	font-size: 60px;
 }
@@ -30,9 +34,53 @@ body .registration-login .page.normal-page {
 	padding: 10px;
 }
 
+.logo .site-name {
+	padding: 0 20px 25px;
+}
+
+
+
+
 ul.bbp-threaded-replies {
 	margin-left: 50px !important;
 }
+
+
+/*----- LANDING PAGE -----*/
+
+img.landing-page {
+	width: 300px;
+}
+
+a.landing-page {
+	font-size: 48px;
+	display: block;
+	text-align: center;
+}
+
+.landing-page.social-links {
+	margin: 20px 0 10px;
+}
+
+.landing-page .group-photo {
+	padding: 20px 0 0;
+}
+
+.landing-page p.img-credit {
+	text-align: right;
+	margin: 0;
+}
+
+.copyright.landing-page {
+	margin-top: 5px;
+}
+
+.copyright.landing-page p {
+	margin: 20px;
+}
+
+
+/*----- RESPONSIVE -----*/
 
 @media screen and (max-width: 991px) {
 	.logo img {
