@@ -311,4 +311,93 @@ if(is_plugin_active('buddypress/bp-loader.php') && function_exists( 'bp_current_
  <?php if ( of_get_option('fullwidth') ) { ?> </div> <?php } ?> <!-- /container -->
 </div>
 <!-- /.container -->
-<?php get_footer(); ?>
+<div class="copyright container landing-page<?php if ( of_get_option('fullwidth') ) {  }else{ ?>span12<?php } ?>">
+        <?php if ( of_get_option('fullwidth') ) { ?><div class="container"><?php } ?>
+            <p>© <?php echo date("Y"); ?>&nbsp;<?php if(of_get_option('copyright')!=""){ echo of_get_option('copyright');} ?>
+                &nbsp;
+            <div class="social">
+            <?php if ( of_get_option('rss') ) { ?> <a class="rss" target="_blank" href="<?php  echo esc_url(of_get_option('rss_link'));  ?>"><i class="fa fa-rss"></i> </a><?php } ?>
+            <?php if ( of_get_option('dribbble') ) { ?> <a class="dribbble" target="_blank" href="<?php  echo esc_url(of_get_option('dribbble_link'));  ?>"><i class="fa fa-dribbble"></i> </a><?php } ?>
+            <?php if ( of_get_option('vimeo') ) { ?> <a class="vimeo" target="_blank" href="<?php echo esc_url(of_get_option('vimeo_link'));   ?>"><i class="fa fa-vimeo-square"></i> </a><?php } ?>
+            <?php if ( of_get_option('youtube') ) { ?> <a class="youtube" target="_blank" href="<?php echo esc_url(of_get_option('youtube_link'));   ?>"><i class="fa fa-youtube"></i> </a><?php } ?>
+            <?php if ( of_get_option('twitch') ) { ?> <a class="twitch" target="_blank" href="<?php echo esc_url(of_get_option('twitch_link'));   ?>"><i class="fa fa-twitch"></i></a><?php } ?>
+            <?php if ( of_get_option('instagram') ) { ?> <a class="instagram" target="_blank" href="<?php echo esc_url(of_get_option('instagram_link'));   ?>"><i class="fa fa-instagram"></i></a><?php } ?>
+            <?php if ( of_get_option('steam') ) { ?> <a class="steam" target="_blank" href="<?php echo esc_url(of_get_option('steam_link'));   ?>"><i class="fa fa-steam"></i></a><?php } ?>
+            <?php if ( of_get_option('pinterest') ) { ?> <a class="pinterest" target="_blank" href="<?php  echo esc_url(of_get_option('pinterest_link'));   ?>"><i class="fa fa-pinterest"></i> </a><?php } ?>
+            <?php if ( of_get_option('googleplus') ) { ?> <a class="google-plus" target="_blank" href="<?php echo esc_url(of_get_option('google_link'));   ?>"><i class="fa fa-google-plus"></i></a><?php } ?>
+            <?php if ( of_get_option('twitter') ) { ?> <a class="twitter" target="_blank" href="<?php  echo esc_url(of_get_option('twitter_link'));   ?>"><i class="fa fa-twitter"></i></a><?php } ?>
+            <?php if ( of_get_option('facebook') ) { ?> <a class="facebook" target="_blank" href="<?php echo esc_url(of_get_option('facebook_link'));   ?>"><i class="fa fa-facebook"></i></a><?php } ?>
+                </div>
+
+    </div>
+
+    <?php if ( of_get_option('fullwidth') ) { ?></div><?php } ?>
+    <div class="container back-to-topw">
+        <a href="#" class="back-to-top"></a>
+    </div>
+    <?php wp_reset_postdata(); ?>
+<!-- modal submit -->
+
+         <div id="myModalLSubmit" class="modal hide fade" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="modal-dialog">
+                	<div class="modal-content">
+	                    <div class="modal-header">
+	                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+	                        <h3><?php esc_html_e("Submit match scores", 'blackfyre'); ?> </h3>
+	                    </div>
+	                    <div class="modal-body">
+	                      <form  method="post"  enctype="multipart/form-data">
+
+	                          <select id="game_id" name="game_id" class="map-select">
+
+	                           <?php if(isset(blackfyre_return_game_id_by_post_id($post->ID)->game_id)){ ?>}
+	                           <option value="<?php echo blackfyre_return_game_id_by_post_id($post->ID)->game_id; ?>" selected="selected"></option>
+	                           <?php } ?>
+                              </select>
+	                          <div id="mapsite"></div>
+	                          <input type="submit" class="button-primary" id="wp-cw-submit" name="submit_score" value="<?php esc_html_e('Submit scores', 'blackfyre'); ?>">
+	                      </form>
+	                    </div>
+	               	</div>
+                </div>
+            </div>
+<!-- /modal submit -->
+
+<!-- modal report -->
+    <div id="myModalLReport" class="modal hide fade" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="modal-dialog">
+                	<div class="modal-content">
+	                    <div class="modal-header">
+	                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+	                        <h3><?php esc_html_e("Flag match", 'blackfyre'); ?> </h3>
+	                    </div>
+	                    <div class="modal-body">
+	                      <form  method="post" enctype="multipart/form-data">
+	                           <textarea name="reason" id="reason"  placeholder="<?php esc_html_e('Please type your reason here...','blackfyre'); ?>" cols="50" rows="10" aria-required="true" ></textarea>
+	                          <input type="submit" class="button-primary" id="wp-cw-report" name="report_score" value="<?php esc_html_e('Report', 'blackfyre'); ?>">
+	                      </form>
+	                    </div>
+					</div>
+                </div>
+            </div>
+<!-- modal report -->
+
+<!-- modal delete clan -->
+    <div id="myModalDeleteClan" class="modal hide fade" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                            <h3><?php esc_html_e("Are you sure you want to delete clan?", 'blackfyre'); ?> </h3>
+                        </div>
+                        <div class="modal-body">
+                          <a  data-pid="<?php echo esc_attr($post->ID); ?>" href="javascript:void(0);" class="ajaxdeleteclan button-small"><?php esc_html_e('Yes', 'blackfyre'); ?></a>
+                          <a class="button-small" data-dismiss="modal" aria-hidden="true"><?php esc_html_e('No', 'blackfyre'); ?></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<!-- modal delete clan -->
+</div> <!-- End of container -->
+<?php wp_footer(); ?>
+</body></html>
