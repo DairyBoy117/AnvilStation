@@ -46,6 +46,31 @@ ul.bbp-threaded-replies {
 }
 
 
+/*----- LANDING PAGE -----*/
+
+img.landing-page {
+	width: 300px;
+}
+
+a.landing-page {
+	font-size: 48px;
+	display: block;
+	text-align: center;
+}
+
+.landing-page.social-links {
+	margin: 20px 0 10px;
+}
+
+.landing-page .group-photo {
+	padding: 20px 0 0;
+}
+
+.landing-page p {
+	text-align: right;
+	margin: 0;
+}
+
 
 /*----- RESPONSIVE -----*/
 

@@ -272,7 +272,37 @@ if(is_plugin_active('buddypress/bp-loader.php') && function_exists( 'bp_current_
 
     <div class="col-lg-12">
 
-        
+        <div class="blog-twrapper">
+
+        	<div class="blog-content">
+        	
+				<h1>Greetings Reclaimer!</h1>
+
+				<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/monitor.png" alt="logo" class="landing-page" />
+
+				<h3>This installation is currently still under construction.</h3>
+				<h3>Be sure to connect with us on social media where we are available and always ready to answer any questions!</h3>
+				
+				<div class="landing-page social-links row">
+					<div class="col-sm-4">
+						<a class="facebook landing-page" target="_blank" href="https://www.facebook.com/AnvilStation/"><i class="fa fa-facebook"></i></a>
+					</div>
+					<div class="col-sm-4">
+						<a class="twitter landing-page" target="_blank" href="https://twitter.com/AnvilStation"><i class="fa fa-twitter"></i></a>
+					</div>
+					<div class="col-sm-4">
+						<a class="instagram landing-page" target="_blank" href="https://www.instagram.com/anvilstation/"><i class="fa fa-instagram"></i></a>
+					</div>
+	            </div>
+
+	            <div class="landing-page">
+	            	<img src="<?php echo get_site_url(); ?>/wp-content/uploads/2017/11/Xbox-Group-Shot.jpg" alt="logo" class="group-photo" />
+	            	<p>Image © Microsoft Corporation</p>
+	            </div>
+
+            </div>
+
+        </div>
 
 	</div>
 
