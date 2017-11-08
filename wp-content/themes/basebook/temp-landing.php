@@ -284,13 +284,13 @@ if(is_plugin_active('buddypress/bp-loader.php') && function_exists( 'bp_current_
 				<h3>Be sure to connect with us on social media where we are available and always ready to answer any questions!</h3>
 				
 				<div class="landing-page social-links row">
-					<div class="col-sm-4">
+					<div>
 						<a class="facebook landing-page" target="_blank" href="https://www.facebook.com/AnvilStation/"><i class="fa fa-facebook"></i></a>
 					</div>
-					<div class="col-sm-4">
+					<div>
 						<a class="twitter landing-page" target="_blank" href="https://twitter.com/AnvilStation"><i class="fa fa-twitter"></i></a>
 					</div>
-					<div class="col-sm-4">
+					<div>
 						<a class="instagram landing-page" target="_blank" href="https://www.instagram.com/anvilstation/"><i class="fa fa-instagram"></i></a>
 					</div>
 	            </div>

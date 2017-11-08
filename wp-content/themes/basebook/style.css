@@ -79,6 +79,11 @@ a.landing-page {
 	margin: 20px;
 }
 
+.landing-page.social-links div {
+    display: block;
+    float: left;
+    width: 33.33333333%;;
+}
 
 /*----- RESPONSIVE -----*/
 
@@ -91,5 +96,11 @@ a.landing-page {
 
 	.logo h1, .logo h2 {
 		text-align: center
+	}
+}
+
+@media (max-width: 480px) {
+	body .copyright p {
+	    width: inherit;
 	}
 }
