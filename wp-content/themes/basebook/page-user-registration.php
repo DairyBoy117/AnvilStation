@@ -257,7 +257,7 @@ if(isset($submit)) {
 							'p' => array(),
 							);
                              echo wp_kses($error_msg, $allowed_tags ); ?></span></div><?php } ?>
-							<form method="post">
+							<form method="post" id="register-form">
 								<p>
 									<label><?php esc_html_e("Username:", 'blackfyre'); ?></label>
 									<span class="cust_input">
@@ -1012,23 +1012,25 @@ if(isset($submit)) {
 
 								<input type="hidden" name="lwa" value="1" />
 
-								<script type="text/javascript">
-								    function callValidation(){
-								        if(grecaptcha.getResponse().length == 0){
-								            
-								        	var submit = document.getElementById('submit-button'),
-											    warning = document.createElement('div');
-											warning.classList.add("error_msg");
-											warning.innerHTML = 'Apologies Reclaimer, but we cannot risk contamination of this facility. Please pass the captcha challenge to verify that you are human.';
-											submit.appendChild(warning);
-
-								            return false;
-								        }
-								        return true;
-								    }
-								</script>
-
 							</form>
+
+							
+			                <script type="text/javascript">
+							    function callValidation(){
+							        if(grecaptcha.getResponse().length == 0){
+							            
+							        	var submit = document.getElementById('register-form'),
+										    warning = document.createElement('div');
+										warning.classList.add("error_msg");
+										warning.innerHTML = 'Apologies Reclaimer, but we cannot risk contamination of this facility. Please pass the captcha challenge to verify that you are human.';
+										submit.appendChild(warning);
+
+							            return false;
+							        }
+							        return true;
+							    }
+							</script>
+
 							 <form name="LoginWithAjax_Form" id="LoginWithAjax_Form1" action="<?php  echo esc_url(wp_login_url()); ?>" method="post">
 							 	<?php if(of_get_option('facebook_btn') or of_get_option('twitter_btn') or of_get_option('twitch_btn') or of_get_option('google_btn') or of_get_option('steam_btn')){ ?>
 			                     <p><span><?php esc_html_e('Or login with:', 'blackfyre'); ?></span></p>
@@ -1052,6 +1054,7 @@ if(isset($submit)) {
 			                    <?php } ?>
 			                    </div>
 			                  </form>
+
             <?php } ?>
 
 
