@@ -1007,10 +1007,21 @@ if(isset($submit)) {
 								</p>
 								<?php do_action('register_form'); ?>
 
-								<p class="submit"><button name="wp-submit" type="submit" id="wp-submit" class="button-green button-small" > <i class="fa fa-sign-in"></i> <?php esc_html_e('Sign up today!', 'blackfyre'); ?></button>
+								<p class="submit"><button name="wp-submit" type="submit" id="wp-submit" class="button-green button-small" onclick="return callValidation();"> <i class="fa fa-sign-in"></i> <?php esc_html_e('Sign up today!', 'blackfyre'); ?></button>
 								</p>
 
 								<input type="hidden" name="lwa" value="1" />
+
+								<script type="text/javascript">
+								    function callValidation(){
+								        if(grecaptcha.getResponse().length == 0){
+								            alert('Please click the reCAPTCHA checkbox');
+								            return false;
+								        }
+								        return true;
+								    }
+								</script>
+
 							</form>
 							 <form name="LoginWithAjax_Form" id="LoginWithAjax_Form1" action="<?php  echo esc_url(wp_login_url()); ?>" method="post">
 							 	<?php if(of_get_option('facebook_btn') or of_get_option('twitter_btn') or of_get_option('twitch_btn') or of_get_option('google_btn') or of_get_option('steam_btn')){ ?>
