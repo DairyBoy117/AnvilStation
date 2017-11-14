@@ -1007,7 +1007,7 @@ if(isset($submit)) {
 								</p>
 								<?php do_action('register_form'); ?>
 
-								<p class="submit"><button name="wp-submit" type="submit" id="wp-submit" class="button-green button-small" onclick="event.preventDefault(); callValidation();"> <i class="fa fa-sign-in"></i> <?php esc_html_e('Sign up today!', 'blackfyre'); ?></button>
+								<p class="submit" id="submit-button"><button name="wp-submit" type="submit" id="wp-submit" class="button-green button-small" onclick="return callValidation();"> <i class="fa fa-sign-in"></i> <?php esc_html_e('Sign up today!', 'blackfyre'); ?></button>
 								</p>
 
 								<input type="hidden" name="lwa" value="1" />
@@ -1016,6 +1016,12 @@ if(isset($submit)) {
 								    function callValidation(){
 								        if(grecaptcha.getResponse().length == 0){
 								            
+								        	var submit = document.getElementById('submit-button'),
+											    warning = document.createElement('div');
+											warning.classList.add("error_msg");
+											warning.innerHTML = 'Apologies Reclaimer, but we cannot risk contamination of this facility. Please pass the captcha challenge to verify that you are human.';
+											submit.appendChild(warning);
+
 								            return false;
 								        }
 								        return true;
