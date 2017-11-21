@@ -9,6 +9,8 @@
  * License: GPL2
  */
 
+require 'includes/anvil-file-share-meta.php';
+
 function add_pepekura_files($addPep){
     $addPep['pdo'] = 'pepekura/pdo'; //Adding svg extension
     return $addPep;
@@ -63,10 +65,5 @@ function add_file_uploader() {
 }
 add_action('add_meta_boxes', 'add_file_uploader');
 
-function files_meta_info() { ?>
-
-	<h1>Testing</h1>
-
-<?php }
 
 ?>
