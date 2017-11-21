@@ -17,6 +17,7 @@ function add_pepekura_files($addPep){
 }
 add_filter('upload_mimes', 'add_pepekura_files', 1, 1);
 
+
 function create_file_share() {
     $labels = array(
         'name'                => __( 'Files' ),
