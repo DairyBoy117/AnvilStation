@@ -50,5 +50,23 @@ function create_file_share() {
 }
 add_action( 'init', 'create_file_share' );
 
+function add_file_uploader() {
+ 
+    add_meta_box(
+        'upload_files',
+        'Upload Files',
+        'files_meta_info',
+        'files',
+        'normal'
+    );
+ 
+}
+add_action('add_meta_boxes', 'add_file_uploader');
+
+function files_meta_info() { ?>
+
+	<h1>Testing</h1>
+
+<?php }
 
 ?>
